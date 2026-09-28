@@ -23,7 +23,6 @@ class GlintsScraper(BaseScraper):
 
     BASE_WEB_URL = "https://glints.com"
     API_SEARCH_URL = "https://glints.com/api/job-posts"
-    GRAPHQL_URL = "https://glints.com/api/graphql"
 
     def __init__(self) -> None:
         super().__init__(
@@ -45,16 +44,28 @@ class GlintsScraper(BaseScraper):
         self,
         keywords: List[str],
         locations: List[str],
-        limit_per_keyword: int = 15,
+        limit_per_keyword: int = 10,
     ) -> List[Job]:
-        """Search Glints across specified keywords and locations."""
+        """Search Glints across specified keywords and locations with fail-fast WAF handling."""
         all_jobs: List[Job] = []
         seen_urls: set[str] = set()
+        consecutive_blocked = 0
 
-        for kw in keywords:
-            for loc in locations:
+        target_locs = [l for l in locations if l.lower() in ("jakarta", "indonesia")][:2] or ["Indonesia"]
+
+        for kw in keywords[:4]:
+            if consecutive_blocked >= 2:
+                logger.warning("[%s] Cloudflare anti-bot active; skipping remaining queries.", self.name)
+                break
+
+            for loc in target_locs:
                 logger.info("[%s] Searching for '%s' in '%s'", self.name, kw, loc)
                 jobs = await self._search_combo(kw, loc, limit_per_keyword)
+                if not jobs:
+                    consecutive_blocked += 1
+                else:
+                    consecutive_blocked = 0
+
                 for j in jobs:
                     if j.url not in seen_urls:
                         seen_urls.add(j.url)
@@ -78,7 +89,7 @@ class GlintsScraper(BaseScraper):
             "limit": limit,
             "page": 1,
         }
-        data = await self.fetch_url(self.API_SEARCH_URL, params=api_params, is_json=True)
+        data = await self.fetch_url(self.API_SEARCH_URL, params=api_params, is_json=True, retries=1)
         if data and isinstance(data, dict):
             raw_jobs = data.get("data", []) or data.get("jobPosts", [])
             if raw_jobs and isinstance(raw_jobs, list):
@@ -155,7 +166,7 @@ class GlintsScraper(BaseScraper):
         kw_enc = quote(keyword)
         url = f"{self.BASE_WEB_URL}/id/opportunities/jobs/explore?keyword={kw_enc}&country=ID"
 
-        html = await self.fetch_url(url, is_json=False)
+        html = await self.fetch_url(url, is_json=False, retries=1)
         if not html:
             return []
 
@@ -165,8 +176,6 @@ class GlintsScraper(BaseScraper):
             try:
                 data = json.loads(next_script.string)
                 page_props = data.get("props", {}).get("pageProps", {})
-                
-                # Check different JSON paths where Glints stores job listings
                 job_posts = (
                     page_props.get("initialReduxState", {}).get("exploreJobs", {}).get("data", {}).get("jobPosts", [])
                     or page_props.get("exploreJobs", {}).get("data", {}).get("jobPosts", [])
@@ -226,7 +235,7 @@ class GlintsScraper(BaseScraper):
 
     async def fetch_job_details(self, job: Job) -> Job:
         """Fetch full job details from Glints opportunity page."""
-        html = await self.fetch_url(job.url, is_json=False)
+        html = await self.fetch_url(job.url, is_json=False, retries=1)
         if not html:
             return job
 
@@ -250,7 +259,6 @@ class GlintsScraper(BaseScraper):
             except Exception as e:
                 logger.debug("[%s] Error extracting detail __NEXT_DATA__: %s", self.name, e)
 
-        # Fallback to DOM elements
         desc_elem = soup.select_one('div[class*="DescriptionSection"], div[class*="JobDescription"], div[id="job-description"]')
         if desc_elem:
             job.description = desc_elem.get_text(separator="\n", strip=True)
