@@ -125,9 +125,18 @@ def test_kalibrr_parser() -> None:
     assert "borrower due diligence" in job.description
 
 
+def test_linkedin_parser() -> None:
+    from src.scrapers.linkedin import LinkedInScraper
+    scraper = LinkedInScraper()
+    assert scraper.platform == PlatformEnum.LINKEDIN
+    assert scraper.name == "LinkedIn"
+
+
 if __name__ == "__main__":
     test_salary_parser()
     test_jobstreet_api_parser()
     test_glints_parser()
     test_kalibrr_parser()
+    test_linkedin_parser()
     print("All scraper tests passed!")
+
