@@ -174,6 +174,31 @@ async def handle_get_screenshot(request: web.Request) -> web.Response:
     return web.FileResponse(screenshot_path)
 
 
+async def handle_get_config(request: web.Request) -> web.Response:
+    """Return runtime configuration."""
+    return web.json_response({
+        "scrape_interval_hours": config.scrape_interval_hours,
+        "min_match_score": config.min_match_score,
+        "dry_run": config.dry_run,
+        "headless": config.headless,
+        "allowed_user": config.allowed_user,
+    })
+
+
+async def handle_update_interval(request: web.Request) -> web.Response:
+    """Update auto-scrape interval in hours."""
+    try:
+        data = await request.json()
+        hours = int(data.get("interval_hours", 6))
+        if 1 <= hours <= 72:
+            config.scrape_interval_hours = hours
+            logger.info("Updated auto-scrape interval to %d hours via Web Dashboard", hours)
+            return web.json_response({"success": True, "scrape_interval_hours": hours})
+        return web.json_response({"error": "Interval must be between 1 and 72 hours"}, status=400)
+    except Exception as e:
+        return web.json_response({"error": str(e)}, status=400)
+
+
 def create_dashboard_app() -> web.Application:
     """Build aiohttp web application with all dashboard routes."""
     app = web.Application()
@@ -181,6 +206,8 @@ def create_dashboard_app() -> web.Application:
     # Routes
     app.router.add_get("/", handle_index)
     app.router.add_get("/api/stats", handle_get_stats)
+    app.router.add_get("/api/config", handle_get_config)
+    app.router.add_post("/api/config/interval", handle_update_interval)
     app.router.add_get("/api/jobs", handle_get_jobs)
     app.router.add_get("/api/jobs/{job_id}", handle_get_job_detail)
     app.router.add_post("/api/jobs/{job_id}/approve", handle_approve_job)
@@ -193,6 +220,7 @@ def create_dashboard_app() -> web.Application:
     app.router.add_get("/api/screenshots/{filename}", handle_get_screenshot)
 
     return app
+
 
 
 async def run_dashboard_server(host: Optional[str] = None, port: Optional[int] = None) -> web.AppRunner:
