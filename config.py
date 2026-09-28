@@ -16,6 +16,10 @@ load_dotenv(BASE_DIR / ".env")
 
 
 class AppConfig(BaseModel):
+    # Server / Web Dashboard
+    host: str = Field(default_factory=lambda: os.getenv("HOST", "0.0.0.0"))
+    port: int = Field(default_factory=lambda: int(os.getenv("PORT", "8080")))
+
     # Telegram Bot
     telegram_bot_token: str = Field(default_factory=lambda: os.getenv("TELEGRAM_BOT_TOKEN", ""))
     telegram_chat_id: str = Field(default_factory=lambda: os.getenv("TELEGRAM_CHAT_ID", ""))
@@ -23,7 +27,7 @@ class AppConfig(BaseModel):
 
     # Google AI Studio / Gemini API
     google_api_key: str = Field(default_factory=lambda: os.getenv("GOOGLE_API_KEY", ""))
-    gemini_model: str = Field(default_factory=lambda: os.getenv("GEMINI_MODEL", "gemini-2.5-flash"))
+    gemini_model: str = Field(default_factory=lambda: os.getenv("GEMINI_MODEL", "gemini-3.8-flash"))
 
     # Job Search & Matching
     search_keywords: List[str] = Field(
