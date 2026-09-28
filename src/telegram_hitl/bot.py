@@ -24,8 +24,10 @@ from src.telegram_hitl.handlers import (
     approve_command_handler,
     callback_query_handler,
     gemini_chat_handler,
+    interval_command_handler,
     pending_handler,
     reject_command_handler,
+    scrape_command_handler,
     start_handler,
     status_handler,
 )
@@ -56,8 +58,11 @@ class TelegramHitlBot:
         app.add_handler(CommandHandler("help", start_handler))
         app.add_handler(CommandHandler("status", status_handler))
         app.add_handler(CommandHandler("pending", pending_handler))
+        app.add_handler(CommandHandler("scrape", scrape_command_handler))
+        app.add_handler(CommandHandler("interval", interval_command_handler))
         app.add_handler(CommandHandler("approve", approve_command_handler))
         app.add_handler(CommandHandler("reject", reject_command_handler))
+
 
         # Callback Query Handler for Inline Buttons
         app.add_handler(CallbackQueryHandler(callback_query_handler))
