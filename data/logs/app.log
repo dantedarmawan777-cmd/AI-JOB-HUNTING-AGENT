@@ -1,0 +1,936 @@
+2026-09-28 19:13:31 | INFO     | matcher.blacklist:354 - Blacklisted job [Telemarketing Kredit @ PT Sales Indo]: Junior/Entry-level role title detected: 'Telemarketing'
+2026-09-28 19:13:31 | INFO     | copywriter.form_answers:469 - Answered screening question [d7e8362a66]: 'Expected monthly salary?' -> 'IDR 25,000,000 – IDR 35,000,000 / month (negotiable dependin'
+2026-09-28 19:13:31 | INFO     | copywriter.form_answers:469 - Answered screening question [b3f0c2a701]: 'Notice period?' -> 'Immediately available / 1 month notice standard.'
+2026-09-28 19:13:31 | INFO     | copywriter.form_answers:469 - Answered screening question [a8ff71b83f]: 'Why should we hire you?' -> 'With 15+ years across commercial banking (Maybank, CIMB Niag'
+2026-09-28 19:13:31 | INFO     | copywriter.form_answers:469 - Answered screening question [dd062a1adc]: 'Years of experience in credit risk?' -> '12'
+2026-09-28 19:13:31 | INFO     | matcher.blacklist:343 - Blacklisted job [Fresh Graduate Admin Kredit @ PT Pinjol Ilegal]: Employer matched blacklisted predatory lending entity: 'PT Pinjol Ilegal'
+2026-09-28 19:13:31 | INFO     | matcher.engine:376 - Job DISCOVERED/REVIEW [Score: 74]: Head of Credit Policy & Underwriting @ SEA Digital Bank
+2026-09-28 19:14:25 | INFO     | src.matcher.profile_loader:40 - Loaded candidate profile for: Aditya Darmawan (Senior Credit Risk & Underwriting Specialist)
+2026-09-28 19:14:37 | INFO     | src.matcher.profile_loader:40 - Loaded candidate profile for: Aditya Darmawan (Senior Credit Risk & Underwriting Specialist)
+2026-09-28 19:14:39 | INFO     | matcher.blacklist:354 - Blacklisted job [Telemarketing Kredit @ PT Sales Indo]: Junior/Entry-level role title detected: 'Telemarketing'
+2026-09-28 19:14:39 | INFO     | test_module:26 - Test log info message
+2026-09-28 19:14:39 | INFO     | copywriter.form_answers:486 - Answered screening question [d7e8362a66]: 'Expected monthly salary?' -> 'IDR 25,000,000 – IDR 35,000,000 / month (negotiable dependin'
+2026-09-28 19:14:39 | INFO     | copywriter.form_answers:486 - Answered screening question [b3f0c2a701]: 'Notice period?' -> 'Immediately available / 1 month notice standard.'
+2026-09-28 19:14:39 | INFO     | copywriter.form_answers:486 - Answered screening question [a8ff71b83f]: 'Why should we hire you?' -> 'With 15+ years across commercial banking (Maybank, CIMB Niag'
+2026-09-28 19:14:39 | INFO     | copywriter.form_answers:486 - Answered screening question [dd062a1adc]: 'Years of experience in credit risk?' -> '12'
+2026-09-28 19:14:49 | INFO     | src.matcher.profile_loader:40 - Loaded candidate profile for: Aditya Darmawan (Senior Credit Risk & Underwriting Specialist)
+2026-09-28 19:14:51 | INFO     | matcher.blacklist:354 - Blacklisted job [Telemarketing Kredit @ PT Sales Indo]: Junior/Entry-level role title detected: 'Telemarketing'
+2026-09-28 19:14:51 | INFO     | test_module:26 - Test log info message
+2026-09-28 19:14:51 | INFO     | copywriter.form_answers:483 - Answered screening question [d7e8362a66]: 'Expected monthly salary?' -> 'IDR 25,000,000 – IDR 35,000,000 / month (negotiable dependin'
+2026-09-28 19:14:51 | INFO     | copywriter.form_answers:483 - Answered screening question [b3f0c2a701]: 'Notice period?' -> 'Immediately available / 1 month notice standard.'
+2026-09-28 19:14:51 | INFO     | copywriter.form_answers:483 - Answered screening question [a8ff71b83f]: 'Why should we hire you?' -> 'With 15+ years across commercial banking (Maybank, CIMB Niag'
+2026-09-28 19:14:51 | INFO     | copywriter.form_answers:483 - Answered screening question [dd062a1adc]: 'Years of experience in credit risk?' -> '12'
+2026-09-28 19:15:31 | INFO     | src.matcher.profile_loader:40 - Loaded candidate profile for: Aditya Darmawan (Senior Credit Risk & Underwriting Specialist)
+2026-09-28 19:15:31 | INFO     | matcher.blacklist:354 - Blacklisted job [Telemarketing Kredit @ PT Sales Indo]: Junior/Entry-level role title detected: 'Telemarketing'
+2026-09-28 19:15:31 | INFO     | copywriter.form_answers:483 - Answered screening question [d7e8362a66]: 'Expected monthly salary?' -> 'IDR 25,000,000 – IDR 35,000,000 / month (negotiable dependin'
+2026-09-28 19:15:31 | INFO     | copywriter.form_answers:483 - Answered screening question [b3f0c2a701]: 'Notice period?' -> 'Immediately available / 1 month notice standard.'
+2026-09-28 19:15:31 | INFO     | copywriter.form_answers:483 - Answered screening question [a8ff71b83f]: 'Why should we hire you?' -> 'With 15+ years across commercial banking (Maybank, CIMB Niag'
+2026-09-28 19:15:31 | INFO     | copywriter.form_answers:483 - Answered screening question [dd062a1adc]: 'Years of experience in credit risk?' -> '12'
+2026-09-28 19:15:34 | INFO     | src.matcher.profile_loader:40 - Loaded candidate profile for: Aditya Darmawan (Senior Credit Risk & Underwriting Specialist)
+2026-09-28 19:15:35 | INFO     | matcher.blacklist:354 - Blacklisted job [Telemarketing Kredit @ PT Sales Indo]: Junior/Entry-level role title detected: 'Telemarketing'
+2026-09-28 19:15:35 | INFO     | test_module:26 - Test log info message
+2026-09-28 19:15:35 | INFO     | src.core.database:293 - Job gli_da836be44f52 status updated: shortlisted -> approved
+2026-09-28 19:15:36 | INFO     | copywriter.form_answers:483 - Answered screening question [d7e8362a66]: 'Expected monthly salary?' -> 'IDR 25,000,000 – IDR 35,000,000 / month (negotiable dependin'
+2026-09-28 19:15:36 | INFO     | copywriter.form_answers:483 - Answered screening question [b3f0c2a701]: 'Notice period?' -> 'Immediately available / 1 month notice standard.'
+2026-09-28 19:15:36 | INFO     | copywriter.form_answers:483 - Answered screening question [a8ff71b83f]: 'Why should we hire you?' -> 'With 15+ years across commercial banking (Maybank, CIMB Niag'
+2026-09-28 19:15:36 | INFO     | copywriter.form_answers:483 - Answered screening question [dd062a1adc]: 'Years of experience in credit risk?' -> '12'
+2026-09-28 19:15:50 | INFO     | src.matcher.profile_loader:40 - Loaded candidate profile for: Aditya Darmawan (Senior Credit Risk & Underwriting Specialist)
+2026-09-28 19:15:51 | INFO     | matcher.blacklist:354 - Blacklisted job [Telemarketing Kredit @ PT Sales Indo]: Junior/Entry-level role title detected: 'Telemarketing'
+2026-09-28 19:15:51 | INFO     | test_module:26 - Test log info message
+2026-09-28 19:15:52 | INFO     | src.core.database:293 - Job gli_da836be44f52 status updated: shortlisted -> approved
+2026-09-28 19:15:53 | INFO     | copywriter.form_answers:483 - Answered screening question [d7e8362a66]: 'Expected monthly salary?' -> 'IDR 25,000,000 – IDR 35,000,000 / month (negotiable dependin'
+2026-09-28 19:15:53 | INFO     | copywriter.form_answers:483 - Answered screening question [b3f0c2a701]: 'Notice period?' -> 'Immediately available / 1 month notice standard.'
+2026-09-28 19:15:53 | INFO     | copywriter.form_answers:483 - Answered screening question [a8ff71b83f]: 'Why should we hire you?' -> 'With 15+ years across commercial banking (Maybank, CIMB Niag'
+2026-09-28 19:15:53 | INFO     | copywriter.form_answers:483 - Answered screening question [dd062a1adc]: 'Years of experience in credit risk?' -> '12'
+2026-09-28 19:16:03 | INFO     | src.matcher.profile_loader:40 - Loaded candidate profile for: Aditya Darmawan (Senior Credit Risk & Underwriting Specialist)
+2026-09-28 19:16:04 | INFO     | matcher.blacklist:354 - Blacklisted job [Telemarketing Kredit @ PT Sales Indo]: Junior/Entry-level role title detected: 'Telemarketing'
+2026-09-28 19:16:04 | INFO     | test_module:26 - Test log info message
+2026-09-28 19:16:05 | INFO     | src.core.database:293 - Job gli_da836be44f52 status updated: shortlisted -> approved
+2026-09-28 19:16:05 | INFO     | copywriter.form_answers:483 - Answered screening question [d7e8362a66]: 'Expected monthly salary?' -> 'IDR 25,000,000 – IDR 35,000,000 / month (negotiable dependin'
+2026-09-28 19:16:05 | INFO     | copywriter.form_answers:483 - Answered screening question [b3f0c2a701]: 'Notice period?' -> 'Immediately available / 1 month notice standard.'
+2026-09-28 19:16:05 | INFO     | copywriter.form_answers:483 - Answered screening question [a8ff71b83f]: 'Why should we hire you?' -> 'With 15+ years across commercial banking (Maybank, CIMB Niag'
+2026-09-28 19:16:05 | INFO     | copywriter.form_answers:483 - Answered screening question [dd062a1adc]: 'Years of experience in credit risk?' -> '12'
+2026-09-28 19:16:24 | INFO     | src.matcher.profile_loader:40 - Loaded candidate profile for: Aditya Darmawan (Senior Credit Risk & Underwriting Specialist)
+2026-09-28 19:16:24 | INFO     | matcher.blacklist:354 - Blacklisted job [Telemarketing Kredit @ PT Sales Indo]: Junior/Entry-level role title detected: 'Telemarketing'
+2026-09-28 19:16:24 | INFO     | src.matcher.profile_loader:40 - Loaded candidate profile for: Aditya Darmawan (Senior Credit Risk & Underwriting Specialist)
+2026-09-28 19:16:24 | INFO     | matcher.blacklist:343 - Blacklisted job [Fresh Graduate Admin Kredit @ PT Pinjol Ilegal]: Employer matched blacklisted predatory lending entity: 'PT Pinjol Ilegal'
+2026-09-28 19:16:24 | INFO     | matcher.engine:369 - Job SHORTLISTED [Score: 100]: Head of Credit Policy & Underwriting @ SEA Digital Bank
+2026-09-28 19:16:24 | INFO     | copywriter.form_answers:483 - Answered screening question [d7e8362a66]: 'Expected monthly salary?' -> 'IDR 25,000,000 – IDR 35,000,000 / month (negotiable dependin'
+2026-09-28 19:16:24 | INFO     | copywriter.form_answers:483 - Answered screening question [b3f0c2a701]: 'Notice period?' -> 'Immediately available / 1 month notice standard.'
+2026-09-28 19:16:24 | INFO     | copywriter.form_answers:483 - Answered screening question [a8ff71b83f]: 'Why should we hire you?' -> 'With 15+ years across commercial banking (Maybank, CIMB Niag'
+2026-09-28 19:16:24 | INFO     | copywriter.form_answers:483 - Answered screening question [dd062a1adc]: 'Years of experience in credit risk?' -> '12'
+2026-09-28 19:16:41 | INFO     | src.matcher.profile_loader:40 - Loaded candidate profile for: Aditya Darmawan (Senior Credit Risk & Underwriting Specialist)
+2026-09-28 19:16:50 | INFO     | src.matcher.profile_loader:40 - Loaded candidate profile for: Aditya Darmawan (Senior Credit Risk & Underwriting Specialist)
+2026-09-28 19:17:06 | INFO     | src.matcher.profile_loader:40 - Loaded candidate profile for: Aditya Darmawan (Senior Credit Risk & Underwriting Specialist)
+2026-09-28 19:17:07 | INFO     | matcher.blacklist:354 - Blacklisted job [Telemarketing Kredit @ PT Sales Indo]: Junior/Entry-level role title detected: 'Telemarketing'
+2026-09-28 19:17:07 | INFO     | test_module:26 - Test log info message
+2026-09-28 19:17:08 | INFO     | src.core.database:293 - Job gli_da836be44f52 status updated: shortlisted -> approved
+2026-09-28 19:17:08 | INFO     | copywriter.form_answers:483 - Answered screening question [d7e8362a66]: 'Expected monthly salary?' -> 'IDR 25,000,000 – IDR 35,000,000 / month (negotiable dependin'
+2026-09-28 19:17:08 | INFO     | copywriter.form_answers:483 - Answered screening question [b3f0c2a701]: 'Notice period?' -> 'Immediately available / 1 month notice standard.'
+2026-09-28 19:17:08 | INFO     | copywriter.form_answers:483 - Answered screening question [a8ff71b83f]: 'Why should we hire you?' -> 'With 15+ years across commercial banking (Maybank, CIMB Niag'
+2026-09-28 19:17:08 | INFO     | copywriter.form_answers:483 - Answered screening question [dd062a1adc]: 'Years of experience in credit risk?' -> '12'
+2026-09-28 19:17:08 | INFO     | matcher.blacklist:343 - Blacklisted job [Fresh Graduate Admin Kredit @ PT Pinjol Ilegal]: Employer matched blacklisted predatory lending entity: 'PT Pinjol Ilegal'
+2026-09-28 19:17:08 | INFO     | matcher.engine:369 - Job SHORTLISTED [Score: 100]: Head of Credit Policy & Underwriting @ SEA Digital Bank
+2026-09-28 19:17:29 | INFO     | src.matcher.profile_loader:40 - Loaded candidate profile for: Aditya Darmawan (Senior Credit Risk & Underwriting Specialist)
+2026-09-28 19:17:31 | INFO     | matcher.blacklist:354 - Blacklisted job [Telemarketing Kredit @ PT Sales Indo]: Junior/Entry-level role title detected: 'Telemarketing'
+2026-09-28 19:17:31 | INFO     | test_module:26 - Test log info message
+2026-09-28 19:17:31 | INFO     | src.core.database:293 - Job gli_da836be44f52 status updated: shortlisted -> approved
+2026-09-28 19:17:31 | INFO     | copywriter.form_answers:483 - Answered screening question [d7e8362a66]: 'Expected monthly salary?' -> 'IDR 25,000,000 – IDR 35,000,000 / month (negotiable dependin'
+2026-09-28 19:17:31 | INFO     | copywriter.form_answers:483 - Answered screening question [b3f0c2a701]: 'Notice period?' -> 'Immediately available / 1 month notice standard.'
+2026-09-28 19:17:31 | INFO     | copywriter.form_answers:483 - Answered screening question [a8ff71b83f]: 'Why should we hire you?' -> 'With 15+ years across commercial banking (Maybank, CIMB Niag'
+2026-09-28 19:17:31 | INFO     | copywriter.form_answers:483 - Answered screening question [dd062a1adc]: 'Years of experience in credit risk?' -> '12'
+2026-09-28 19:17:31 | INFO     | matcher.blacklist:343 - Blacklisted job [Fresh Graduate Admin Kredit @ PT Pinjol Ilegal]: Employer matched blacklisted predatory lending entity: 'PT Pinjol Ilegal'
+2026-09-28 19:17:31 | INFO     | matcher.engine:369 - Job SHORTLISTED [Score: 100]: Head of Credit Policy & Underwriting @ SEA Digital Bank
+2026-09-28 19:20:00 | INFO     | src.matcher.profile_loader:40 - Loaded candidate profile for: Aditya Darmawan (Senior Credit Risk & Underwriting Specialist)
+2026-09-28 19:20:11 | INFO     | src.matcher.profile_loader:40 - Loaded candidate profile for: Aditya Darmawan (Senior Credit Risk & Underwriting Specialist)
+2026-09-28 19:20:11 | INFO     | copywriter.form_answers:483 - Answered screening question [fcc5c1b810]: 'How many years of experience do you have' -> '12'
+2026-09-28 19:20:11 | INFO     | copywriter.form_answers:483 - Answered screening question [30e16c611e]: 'What is your expected monthly salary in ' -> 'IDR 25,000,000 – IDR 35,000,000 / month (negotiable dependin'
+2026-09-28 19:20:11 | INFO     | copywriter.form_answers:483 - Answered screening question [a710e0f9db]: 'Describe your experience with credit pol' -> 'I have 6 years of direct experience at Aspire SEA formulatin'
+2026-09-28 19:20:11 | INFO     | copywriter.form_answers:483 - Answered screening question [bcfc90b466]: 'What is your current notice period?' -> 'Immediately Available'
+2026-09-28 19:20:12 | INFO     | copywriter.form_answers:483 - Answered screening question [af12288681]: 'Do you have experience in both conventio' -> '6 years at Aspire SEA specializing in digital SME lending, c'
+2026-09-28 19:20:12 | INFO     | matcher.blacklist:354 - Blacklisted job [Fresh Graduate Admin Kredit & Telemarketing @ PT Pinjaman Kilat Cepat]: Junior/Entry-level role title detected: 'Fresh Graduate'
+2026-09-28 19:20:18 | INFO     | src.matcher.profile_loader:40 - Loaded candidate profile for: Aditya Darmawan (Senior Credit Risk & Underwriting Specialist)
+2026-09-28 19:20:27 | INFO     | src.matcher.profile_loader:40 - Loaded candidate profile for: Aditya Darmawan (Senior Credit Risk & Underwriting Specialist)
+2026-09-28 19:32:15 | INFO     | src.matcher.profile_loader:40 - Loaded candidate profile for: Aditya Darmawan (Senior Credit Risk & Underwriting Specialist)
+2026-09-28 19:32:16 | INFO     | matcher.blacklist:354 - Blacklisted job [Telemarketing Kredit @ PT Sales Indo]: Junior/Entry-level role title detected: 'Telemarketing'
+2026-09-28 19:32:16 | INFO     | test_module:26 - Test log info message
+2026-09-28 19:32:16 | INFO     | src.core.database:293 - Job gli_da836be44f52 status updated: shortlisted -> approved
+2026-09-28 19:32:17 | INFO     | copywriter.form_answers:483 - Answered screening question [d7e8362a66]: 'Expected monthly salary?' -> 'IDR 25,000,000 – IDR 35,000,000 / month (negotiable dependin'
+2026-09-28 19:32:17 | INFO     | copywriter.form_answers:483 - Answered screening question [b3f0c2a701]: 'Notice period?' -> 'Immediately available / 1 month notice standard.'
+2026-09-28 19:32:17 | INFO     | copywriter.form_answers:483 - Answered screening question [a8ff71b83f]: 'Why should we hire you?' -> 'With 15+ years across commercial banking (Maybank, CIMB Niag'
+2026-09-28 19:32:17 | INFO     | copywriter.form_answers:483 - Answered screening question [dd062a1adc]: 'Years of experience in credit risk?' -> '12'
+2026-09-28 19:32:17 | INFO     | matcher.blacklist:343 - Blacklisted job [Fresh Graduate Admin Kredit @ PT Pinjol Ilegal]: Employer matched blacklisted predatory lending entity: 'PT Pinjol Ilegal'
+2026-09-28 19:32:17 | INFO     | matcher.engine:369 - Job SHORTLISTED [Score: 100]: Head of Credit Policy & Underwriting @ SEA Digital Bank
+2026-09-28 19:32:26 | INFO     | src.matcher.profile_loader:40 - Loaded candidate profile for: Aditya Darmawan (Senior Credit Risk & Underwriting Specialist)
+2026-09-28 19:32:27 | INFO     | matcher.blacklist:354 - Blacklisted job [Telemarketing Kredit @ PT Sales Indo]: Junior/Entry-level role title detected: 'Telemarketing'
+2026-09-28 19:32:27 | INFO     | test_module:26 - Test log info message
+2026-09-28 19:32:28 | INFO     | src.core.database:293 - Job gli_da836be44f52 status updated: shortlisted -> approved
+2026-09-28 19:32:28 | INFO     | copywriter.form_answers:483 - Answered screening question [d7e8362a66]: 'Expected monthly salary?' -> 'IDR 25,000,000 – IDR 35,000,000 / month (negotiable dependin'
+2026-09-28 19:32:28 | INFO     | copywriter.form_answers:483 - Answered screening question [b3f0c2a701]: 'Notice period?' -> 'Immediately available / 1 month notice standard.'
+2026-09-28 19:32:28 | INFO     | copywriter.form_answers:483 - Answered screening question [a8ff71b83f]: 'Why should we hire you?' -> 'With 15+ years across commercial banking (Maybank, CIMB Niag'
+2026-09-28 19:32:28 | INFO     | copywriter.form_answers:483 - Answered screening question [dd062a1adc]: 'Years of experience in credit risk?' -> '12'
+2026-09-28 19:32:28 | INFO     | matcher.blacklist:343 - Blacklisted job [Fresh Graduate Admin Kredit @ PT Pinjol Ilegal]: Employer matched blacklisted predatory lending entity: 'PT Pinjol Ilegal'
+2026-09-28 19:32:28 | INFO     | matcher.engine:369 - Job SHORTLISTED [Score: 100]: Head of Credit Policy & Underwriting @ SEA Digital Bank
+2026-09-28 19:32:34 | INFO     | src.matcher.profile_loader:40 - Loaded candidate profile for: Aditya Darmawan (Senior Credit Risk & Underwriting Specialist)
+2026-09-28 19:32:36 | WARNING  | gemini_assistant:144 - Gemini model gemini-2.5-flash returned status 404: {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.5-flash is no longer avai
+2026-09-28 19:32:37 | WARNING  | gemini_assistant:144 - Gemini model gemini-2.5-flash returned status 404: {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.5-flash is no longer avai
+2026-09-28 19:32:39 | WARNING  | gemini_assistant:144 - Gemini model gemini-3.5-flash returned status 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Sp
+2026-09-28 19:32:54 | WARNING  | gemini_assistant:144 - Gemini model gemini-3.7-flash returned status 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Sp
+2026-09-28 19:33:44 | INFO     | src.matcher.profile_loader:40 - Loaded candidate profile for: Aditya Darmawan (Senior Credit Risk & Underwriting Specialist)
+2026-09-28 19:33:57 | WARNING  | gemini_assistant:144 - Gemini model gemini-3.8-flash returned status 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Sp
+2026-09-28 19:34:04 | WARNING  | gemini_assistant:144 - Gemini model gemini-3.8-flash returned status 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Sp
+2026-09-28 19:34:06 | WARNING  | gemini_assistant:144 - Gemini model gemini-3.5-flash returned status 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Sp
+2026-09-28 19:34:20 | INFO     | src.matcher.profile_loader:40 - Loaded candidate profile for: Aditya Darmawan (Senior Credit Risk & Underwriting Specialist)
+2026-09-28 19:34:21 | INFO     | job_agent_main:80 - Starting Job Hunting Automation Daemon...
+2026-09-28 19:34:22 | INFO     | src.telegram_hitl.bot:80 - Starting Telegram HITL Bot polling...
+2026-09-28 19:34:24 | INFO     | telegram.ext.Application:633 - Application started
+2026-09-28 19:34:24 | INFO     | job_agent_main:33 - Initiating full job scraping and matching cycle...
+2026-09-28 19:34:24 | INFO     | src.scrapers.manager:66 - Starting multi-platform scraper run. Keywords: 8, Locations: 4, Threshold: 75
+2026-09-28 19:34:24 | INFO     | src.scrapers.jobstreet:56 - [JobStreet] Searching for 'Credit Risk Manager' in 'Jakarta'
+2026-09-28 19:34:24 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:24 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:24 | INFO     | src.scrapers.glints:56 - [Glints] Searching for 'Credit Risk Manager' in 'Jakarta'
+2026-09-28 19:34:24 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:24 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:24 | INFO     | src.scrapers.kalibrr:44 - [Kalibrr] Searching for 'Credit Risk Manager' in 'Jakarta'
+2026-09-28 19:34:24 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:24 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:25 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/api/chalice-search/v4/search failed with status 404
+2026-09-28 19:34:25 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:25 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Credit+Risk+Manager&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:34:26 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/id/job-search/credit-risk-manager-jobs/in-jakarta/?sortmode=listeddate failed with status 403
+2026-09-28 19:34:26 | INFO     | src.scrapers.jobstreet:56 - [JobStreet] Searching for 'Credit Risk Manager' in 'Tarakan'
+2026-09-28 19:34:26 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:26 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Manager&country=ID (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Manager&country=ID'
+2026-09-28 19:34:26 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/api/chalice-search/v4/search failed with status 404
+2026-09-28 19:34:26 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:27 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/id/job-search/credit-risk-manager-jobs/in-tarakan/?sortmode=listeddate failed with status 403
+2026-09-28 19:34:27 | INFO     | src.scrapers.jobstreet:56 - [JobStreet] Searching for 'Credit Risk Manager' in 'Indonesia'
+2026-09-28 19:34:27 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:27 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/api/chalice-search/v4/search failed with status 404
+2026-09-28 19:34:27 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:28 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Credit+Risk+Manager&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:34:28 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/id/job-search/credit-risk-manager-jobs/in-indonesia/?sortmode=listeddate failed with status 403
+2026-09-28 19:34:28 | INFO     | src.scrapers.jobstreet:56 - [JobStreet] Searching for 'Credit Risk Manager' in 'Remote'
+2026-09-28 19:34:28 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:28 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Manager&country=ID (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Manager&country=ID'
+2026-09-28 19:34:29 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/api/chalice-search/v4/search failed with status 404
+2026-09-28 19:34:29 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:30 | ERROR    | telegram.ext.Updater:371 - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 680, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 4767, in get_updates
+    await self._post(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-09-28 19:34:30 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/id/job-search/credit-risk-manager-jobs/in-remote/?sortmode=listeddate failed with status 403
+2026-09-28 19:34:30 | INFO     | src.scrapers.jobstreet:56 - [JobStreet] Searching for 'Credit Risk Analyst' in 'Jakarta'
+2026-09-28 19:34:30 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:30 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/api/chalice-search/v4/search failed with status 404
+2026-09-28 19:34:30 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:31 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/id/job-search/credit-risk-analyst-jobs/in-jakarta/?sortmode=listeddate failed with status 403
+2026-09-28 19:34:31 | INFO     | src.scrapers.jobstreet:56 - [JobStreet] Searching for 'Credit Risk Analyst' in 'Tarakan'
+2026-09-28 19:34:31 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:32 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/api/chalice-search/v4/search failed with status 404
+2026-09-28 19:34:32 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:32 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Credit+Risk+Manager&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:34:32 | ERROR    | src.scrapers.base:132 - [Kalibrr] Exhausted all 3 retries for https://www.kalibrr.com/api/job_board/search
+2026-09-28 19:34:32 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:32 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/id/job-search/credit-risk-analyst-jobs/in-tarakan/?sortmode=listeddate failed with status 403
+2026-09-28 19:34:32 | INFO     | src.scrapers.jobstreet:56 - [JobStreet] Searching for 'Credit Risk Analyst' in 'Indonesia'
+2026-09-28 19:34:32 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:33 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/credit-risk-manager/co/Indonesia (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/credit-risk-manager/co/Indonesia'
+2026-09-28 19:34:33 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/api/chalice-search/v4/search failed with status 404
+2026-09-28 19:34:33 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:33 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Manager&country=ID (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Manager&country=ID'
+2026-09-28 19:34:33 | ERROR    | src.scrapers.base:132 - [Glints] Exhausted all 3 retries for https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Manager&country=ID
+2026-09-28 19:34:33 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:34 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Credit+Risk+Manager&country=ID&cityName=Jakarta&limit=15&page=1'
+2026-09-28 19:34:34 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/id/job-search/credit-risk-analyst-jobs/in-indonesia/?sortmode=listeddate failed with status 403
+2026-09-28 19:34:34 | INFO     | src.scrapers.jobstreet:56 - [JobStreet] Searching for 'Credit Risk Analyst' in 'Remote'
+2026-09-28 19:34:34 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:34 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/api/chalice-search/v4/search failed with status 404
+2026-09-28 19:34:34 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:35 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/id/job-search/credit-risk-analyst-jobs/in-remote/?sortmode=listeddate failed with status 403
+2026-09-28 19:34:35 | INFO     | src.scrapers.jobstreet:56 - [JobStreet] Searching for 'Head of Underwriting' in 'Jakarta'
+2026-09-28 19:34:35 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:36 | ERROR    | telegram.ext.Updater:371 - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 680, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 4767, in get_updates
+    await self._post(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-09-28 19:34:36 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/api/chalice-search/v4/search failed with status 404
+2026-09-28 19:34:36 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:36 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/credit-risk-manager/co/Indonesia (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/credit-risk-manager/co/Indonesia'
+2026-09-28 19:34:36 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/id/job-search/head-of-underwriting-jobs/in-jakarta/?sortmode=listeddate failed with status 403
+2026-09-28 19:34:36 | INFO     | src.scrapers.jobstreet:56 - [JobStreet] Searching for 'Head of Underwriting' in 'Tarakan'
+2026-09-28 19:34:36 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:36 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Credit+Risk+Manager&country=ID&cityName=Jakarta&limit=15&page=1'
+2026-09-28 19:34:37 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/api/chalice-search/v4/search failed with status 404
+2026-09-28 19:34:37 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:37 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/id/job-search/head-of-underwriting-jobs/in-tarakan/?sortmode=listeddate failed with status 403
+2026-09-28 19:34:37 | INFO     | src.scrapers.jobstreet:56 - [JobStreet] Searching for 'Head of Underwriting' in 'Indonesia'
+2026-09-28 19:34:37 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:38 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/api/chalice-search/v4/search failed with status 404
+2026-09-28 19:34:38 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:38 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/id/job-search/head-of-underwriting-jobs/in-indonesia/?sortmode=listeddate failed with status 403
+2026-09-28 19:34:38 | INFO     | src.scrapers.jobstreet:56 - [JobStreet] Searching for 'Head of Underwriting' in 'Remote'
+2026-09-28 19:34:38 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:40 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/api/chalice-search/v4/search failed with status 404
+2026-09-28 19:34:40 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:40 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/id/job-search/head-of-underwriting-jobs/in-remote/?sortmode=listeddate failed with status 403
+2026-09-28 19:34:40 | INFO     | src.scrapers.jobstreet:56 - [JobStreet] Searching for 'Commercial Banking Relationship Manager' in 'Jakarta'
+2026-09-28 19:34:40 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:41 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/credit-risk-manager/co/Indonesia (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/credit-risk-manager/co/Indonesia'
+2026-09-28 19:34:41 | ERROR    | src.scrapers.base:132 - [Kalibrr] Exhausted all 3 retries for https://www.kalibrr.com/job-board/te/credit-risk-manager/co/Indonesia
+2026-09-28 19:34:41 | INFO     | src.scrapers.kalibrr:44 - [Kalibrr] Searching for 'Credit Risk Manager' in 'Tarakan'
+2026-09-28 19:34:41 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:41 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Credit+Risk+Manager&country=ID&cityName=Jakarta&limit=15&page=1'
+2026-09-28 19:34:41 | ERROR    | src.scrapers.base:132 - [Glints] Exhausted all 3 retries for https://glints.com/api/job-posts
+2026-09-28 19:34:41 | INFO     | src.scrapers.glints:56 - [Glints] Searching for 'Credit Risk Manager' in 'Tarakan'
+2026-09-28 19:34:41 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:41 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/api/chalice-search/v4/search failed with status 404
+2026-09-28 19:34:41 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:41 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Credit+Risk+Manager&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:34:41 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/id/job-search/commercial-banking-relationship-manager-jobs/in-jakarta/?sortmode=listeddate failed with status 403
+2026-09-28 19:34:41 | INFO     | src.scrapers.jobstreet:56 - [JobStreet] Searching for 'Commercial Banking Relationship Manager' in 'Tarakan'
+2026-09-28 19:34:41 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:41 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Manager&country=ID (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Manager&country=ID'
+2026-09-28 19:34:42 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/api/chalice-search/v4/search failed with status 404
+2026-09-28 19:34:42 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:43 | ERROR    | telegram.ext.Updater:371 - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 680, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 4767, in get_updates
+    await self._post(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-09-28 19:34:43 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/id/job-search/commercial-banking-relationship-manager-jobs/in-tarakan/?sortmode=listeddate failed with status 403
+2026-09-28 19:34:43 | INFO     | src.scrapers.jobstreet:56 - [JobStreet] Searching for 'Commercial Banking Relationship Manager' in 'Indonesia'
+2026-09-28 19:34:43 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:44 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/api/chalice-search/v4/search failed with status 404
+2026-09-28 19:34:44 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:44 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Credit+Risk+Manager&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:34:44 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/id/job-search/commercial-banking-relationship-manager-jobs/in-indonesia/?sortmode=listeddate failed with status 403
+2026-09-28 19:34:44 | INFO     | src.scrapers.jobstreet:56 - [JobStreet] Searching for 'Commercial Banking Relationship Manager' in 'Remote'
+2026-09-28 19:34:44 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:44 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Manager&country=ID (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Manager&country=ID'
+2026-09-28 19:34:44 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/api/chalice-search/v4/search failed with status 404
+2026-09-28 19:34:44 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:45 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/id/job-search/commercial-banking-relationship-manager-jobs/in-remote/?sortmode=listeddate failed with status 403
+2026-09-28 19:34:45 | INFO     | src.scrapers.jobstreet:56 - [JobStreet] Searching for 'SME Lending Specialist' in 'Jakarta'
+2026-09-28 19:34:45 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:45 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/api/chalice-search/v4/search failed with status 404
+2026-09-28 19:34:45 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:46 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/id/job-search/sme-lending-specialist-jobs/in-jakarta/?sortmode=listeddate failed with status 403
+2026-09-28 19:34:46 | INFO     | src.scrapers.jobstreet:56 - [JobStreet] Searching for 'SME Lending Specialist' in 'Tarakan'
+2026-09-28 19:34:46 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:46 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/api/chalice-search/v4/search failed with status 404
+2026-09-28 19:34:46 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:47 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/id/job-search/sme-lending-specialist-jobs/in-tarakan/?sortmode=listeddate failed with status 403
+2026-09-28 19:34:47 | INFO     | src.scrapers.jobstreet:56 - [JobStreet] Searching for 'SME Lending Specialist' in 'Indonesia'
+2026-09-28 19:34:47 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:47 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/api/chalice-search/v4/search failed with status 404
+2026-09-28 19:34:47 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:47 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/id/job-search/sme-lending-specialist-jobs/in-indonesia/?sortmode=listeddate failed with status 403
+2026-09-28 19:34:47 | INFO     | src.scrapers.jobstreet:56 - [JobStreet] Searching for 'SME Lending Specialist' in 'Remote'
+2026-09-28 19:34:47 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:48 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/api/chalice-search/v4/search failed with status 404
+2026-09-28 19:34:48 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:48 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Credit+Risk+Manager&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:34:48 | ERROR    | src.scrapers.base:132 - [Kalibrr] Exhausted all 3 retries for https://www.kalibrr.com/api/job_board/search
+2026-09-28 19:34:48 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:49 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Manager&country=ID (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Manager&country=ID'
+2026-09-28 19:34:49 | ERROR    | src.scrapers.base:132 - [Glints] Exhausted all 3 retries for https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Manager&country=ID
+2026-09-28 19:34:49 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:49 | ERROR    | telegram.ext.Updater:371 - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 680, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 4767, in get_updates
+    await self._post(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-09-28 19:34:49 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/id/job-search/sme-lending-specialist-jobs/in-remote/?sortmode=listeddate failed with status 403
+2026-09-28 19:34:49 | INFO     | src.scrapers.jobstreet:56 - [JobStreet] Searching for 'Credit Policy Lead' in 'Jakarta'
+2026-09-28 19:34:49 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:49 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/credit-risk-manager/co/Indonesia (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/credit-risk-manager/co/Indonesia'
+2026-09-28 19:34:49 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Credit+Risk+Manager&country=ID&cityName=Tarakan&limit=15&page=1'
+2026-09-28 19:34:50 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/api/chalice-search/v4/search failed with status 404
+2026-09-28 19:34:50 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:50 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/id/job-search/credit-policy-lead-jobs/in-jakarta/?sortmode=listeddate failed with status 403
+2026-09-28 19:34:50 | INFO     | src.scrapers.jobstreet:56 - [JobStreet] Searching for 'Credit Policy Lead' in 'Tarakan'
+2026-09-28 19:34:50 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:50 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/api/chalice-search/v4/search failed with status 404
+2026-09-28 19:34:50 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:51 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/id/job-search/credit-policy-lead-jobs/in-tarakan/?sortmode=listeddate failed with status 403
+2026-09-28 19:34:51 | INFO     | src.scrapers.jobstreet:56 - [JobStreet] Searching for 'Credit Policy Lead' in 'Indonesia'
+2026-09-28 19:34:51 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:51 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/api/chalice-search/v4/search failed with status 404
+2026-09-28 19:34:51 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:52 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Credit+Risk+Manager&country=ID&cityName=Tarakan&limit=15&page=1'
+2026-09-28 19:34:52 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/credit-risk-manager/co/Indonesia (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/credit-risk-manager/co/Indonesia'
+2026-09-28 19:34:52 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/id/job-search/credit-policy-lead-jobs/in-indonesia/?sortmode=listeddate failed with status 403
+2026-09-28 19:34:52 | INFO     | src.scrapers.jobstreet:56 - [JobStreet] Searching for 'Credit Policy Lead' in 'Remote'
+2026-09-28 19:34:52 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:53 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/api/chalice-search/v4/search failed with status 404
+2026-09-28 19:34:53 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:53 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/id/job-search/credit-policy-lead-jobs/in-remote/?sortmode=listeddate failed with status 403
+2026-09-28 19:34:53 | INFO     | src.scrapers.jobstreet:56 - [JobStreet] Searching for 'Risk Assessment Specialist' in 'Jakarta'
+2026-09-28 19:34:53 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:53 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/api/chalice-search/v4/search failed with status 404
+2026-09-28 19:34:53 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:54 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/id/job-search/risk-assessment-specialist-jobs/in-jakarta/?sortmode=listeddate failed with status 403
+2026-09-28 19:34:54 | INFO     | src.scrapers.jobstreet:56 - [JobStreet] Searching for 'Risk Assessment Specialist' in 'Tarakan'
+2026-09-28 19:34:54 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:54 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/api/chalice-search/v4/search failed with status 404
+2026-09-28 19:34:54 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:55 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/id/job-search/risk-assessment-specialist-jobs/in-tarakan/?sortmode=listeddate failed with status 403
+2026-09-28 19:34:55 | INFO     | src.scrapers.jobstreet:56 - [JobStreet] Searching for 'Risk Assessment Specialist' in 'Indonesia'
+2026-09-28 19:34:55 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:56 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/api/chalice-search/v4/search failed with status 404
+2026-09-28 19:34:56 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:56 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Credit+Risk+Manager&country=ID&cityName=Tarakan&limit=15&page=1'
+2026-09-28 19:34:56 | ERROR    | src.scrapers.base:132 - [Glints] Exhausted all 3 retries for https://glints.com/api/job-posts
+2026-09-28 19:34:56 | INFO     | src.scrapers.glints:56 - [Glints] Searching for 'Credit Risk Manager' in 'Indonesia'
+2026-09-28 19:34:56 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:56 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/id/job-search/risk-assessment-specialist-jobs/in-indonesia/?sortmode=listeddate failed with status 403
+2026-09-28 19:34:56 | INFO     | src.scrapers.jobstreet:56 - [JobStreet] Searching for 'Risk Assessment Specialist' in 'Remote'
+2026-09-28 19:34:56 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:57 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/credit-risk-manager/co/Indonesia (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/credit-risk-manager/co/Indonesia'
+2026-09-28 19:34:57 | ERROR    | src.scrapers.base:132 - [Kalibrr] Exhausted all 3 retries for https://www.kalibrr.com/job-board/te/credit-risk-manager/co/Indonesia
+2026-09-28 19:34:57 | INFO     | src.scrapers.kalibrr:44 - [Kalibrr] Searching for 'Credit Risk Manager' in 'Indonesia'
+2026-09-28 19:34:57 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:57 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/api/chalice-search/v4/search failed with status 404
+2026-09-28 19:34:57 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:57 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Manager&country=ID (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Manager&country=ID'
+2026-09-28 19:34:57 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/id/job-search/risk-assessment-specialist-jobs/in-remote/?sortmode=listeddate failed with status 403
+2026-09-28 19:34:57 | INFO     | src.scrapers.jobstreet:56 - [JobStreet] Searching for 'Credit Decisioning' in 'Jakarta'
+2026-09-28 19:34:57 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:57 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Credit+Risk+Manager&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:34:58 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/api/chalice-search/v4/search failed with status 404
+2026-09-28 19:34:58 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:58 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/id/job-search/credit-decisioning-jobs/in-jakarta/?sortmode=listeddate failed with status 403
+2026-09-28 19:34:58 | INFO     | src.scrapers.jobstreet:56 - [JobStreet] Searching for 'Credit Decisioning' in 'Tarakan'
+2026-09-28 19:34:58 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:58 | ERROR    | telegram.ext.Updater:371 - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 680, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 4767, in get_updates
+    await self._post(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-09-28 19:34:59 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/api/chalice-search/v4/search failed with status 404
+2026-09-28 19:34:59 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:59 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/id/job-search/credit-decisioning-jobs/in-tarakan/?sortmode=listeddate failed with status 403
+2026-09-28 19:34:59 | INFO     | src.scrapers.jobstreet:56 - [JobStreet] Searching for 'Credit Decisioning' in 'Indonesia'
+2026-09-28 19:34:59 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:34:59 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Manager&country=ID (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Manager&country=ID'
+2026-09-28 19:35:00 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/api/chalice-search/v4/search failed with status 404
+2026-09-28 19:35:00 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:35:00 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Credit+Risk+Manager&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:35:00 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/id/job-search/credit-decisioning-jobs/in-indonesia/?sortmode=listeddate failed with status 403
+2026-09-28 19:35:00 | INFO     | src.scrapers.jobstreet:56 - [JobStreet] Searching for 'Credit Decisioning' in 'Remote'
+2026-09-28 19:35:00 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:35:01 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/api/chalice-search/v4/search failed with status 404
+2026-09-28 19:35:01 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:35:02 | WARNING  | src.scrapers.base:117 - [JobStreet] Request to https://id.jobstreet.com/id/job-search/credit-decisioning-jobs/in-remote/?sortmode=listeddate failed with status 403
+2026-09-28 19:35:02 | INFO     | src.scrapers.jobstreet:63 - [JobStreet] Found 0 total unique jobs
+2026-09-28 19:35:04 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Manager&country=ID (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Manager&country=ID'
+2026-09-28 19:35:04 | ERROR    | src.scrapers.base:132 - [Glints] Exhausted all 3 retries for https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Manager&country=ID
+2026-09-28 19:35:04 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:35:05 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Credit+Risk+Manager&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:35:05 | ERROR    | src.scrapers.base:132 - [Kalibrr] Exhausted all 3 retries for https://www.kalibrr.com/api/job_board/search
+2026-09-28 19:35:05 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:35:05 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Credit+Risk+Manager&country=ID&cityName=&limit=15&page=1'
+2026-09-28 19:35:05 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/credit-risk-manager/co/Indonesia (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/credit-risk-manager/co/Indonesia'
+2026-09-28 19:35:07 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Credit+Risk+Manager&country=ID&cityName=&limit=15&page=1'
+2026-09-28 19:35:08 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/credit-risk-manager/co/Indonesia (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/credit-risk-manager/co/Indonesia'
+2026-09-28 19:35:12 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Credit+Risk+Manager&country=ID&cityName=&limit=15&page=1'
+2026-09-28 19:35:12 | ERROR    | src.scrapers.base:132 - [Glints] Exhausted all 3 retries for https://glints.com/api/job-posts
+2026-09-28 19:35:12 | INFO     | src.scrapers.glints:56 - [Glints] Searching for 'Credit Risk Manager' in 'Remote'
+2026-09-28 19:35:12 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:35:12 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Manager&country=ID (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Manager&country=ID'
+2026-09-28 19:35:13 | ERROR    | telegram.ext.Updater:371 - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 680, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 4767, in get_updates
+    await self._post(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-09-28 19:35:13 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/credit-risk-manager/co/Indonesia (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/credit-risk-manager/co/Indonesia'
+2026-09-28 19:35:13 | ERROR    | src.scrapers.base:132 - [Kalibrr] Exhausted all 3 retries for https://www.kalibrr.com/job-board/te/credit-risk-manager/co/Indonesia
+2026-09-28 19:35:13 | INFO     | src.scrapers.kalibrr:44 - [Kalibrr] Searching for 'Credit Risk Manager' in 'Remote'
+2026-09-28 19:35:13 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:35:14 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Credit+Risk+Manager&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:35:15 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Manager&country=ID (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Manager&country=ID'
+2026-09-28 19:35:16 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Credit+Risk+Manager&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:35:19 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Manager&country=ID (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Manager&country=ID'
+2026-09-28 19:35:19 | ERROR    | src.scrapers.base:132 - [Glints] Exhausted all 3 retries for https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Manager&country=ID
+2026-09-28 19:35:19 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:35:20 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Credit+Risk+Manager&country=ID&cityName=Remote&limit=15&page=1'
+2026-09-28 19:35:21 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Credit+Risk+Manager&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:35:21 | ERROR    | src.scrapers.base:132 - [Kalibrr] Exhausted all 3 retries for https://www.kalibrr.com/api/job_board/search
+2026-09-28 19:35:21 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:35:22 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/credit-risk-manager/co/Indonesia (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/credit-risk-manager/co/Indonesia'
+2026-09-28 19:35:23 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Credit+Risk+Manager&country=ID&cityName=Remote&limit=15&page=1'
+2026-09-28 19:35:25 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/credit-risk-manager/co/Indonesia (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/credit-risk-manager/co/Indonesia'
+2026-09-28 19:35:27 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Credit+Risk+Manager&country=ID&cityName=Remote&limit=15&page=1'
+2026-09-28 19:35:27 | ERROR    | src.scrapers.base:132 - [Glints] Exhausted all 3 retries for https://glints.com/api/job-posts
+2026-09-28 19:35:27 | INFO     | src.scrapers.glints:56 - [Glints] Searching for 'Credit Risk Analyst' in 'Jakarta'
+2026-09-28 19:35:27 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:35:28 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Analyst&country=ID (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Analyst&country=ID'
+2026-09-28 19:35:30 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/credit-risk-manager/co/Indonesia (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/credit-risk-manager/co/Indonesia'
+2026-09-28 19:35:30 | ERROR    | src.scrapers.base:132 - [Kalibrr] Exhausted all 3 retries for https://www.kalibrr.com/job-board/te/credit-risk-manager/co/Indonesia
+2026-09-28 19:35:30 | INFO     | src.scrapers.kalibrr:44 - [Kalibrr] Searching for 'Credit Risk Analyst' in 'Jakarta'
+2026-09-28 19:35:30 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:35:31 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Analyst&country=ID (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Analyst&country=ID'
+2026-09-28 19:35:31 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Credit+Risk+Analyst&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:35:33 | ERROR    | telegram.ext.Updater:371 - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 680, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 4767, in get_updates
+    await self._post(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-09-28 19:35:34 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Credit+Risk+Analyst&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:35:36 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Analyst&country=ID (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Analyst&country=ID'
+2026-09-28 19:35:36 | ERROR    | src.scrapers.base:132 - [Glints] Exhausted all 3 retries for https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Analyst&country=ID
+2026-09-28 19:35:36 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:35:37 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Credit+Risk+Analyst&country=ID&cityName=Jakarta&limit=15&page=1'
+2026-09-28 19:35:38 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Credit+Risk+Analyst&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:35:38 | ERROR    | src.scrapers.base:132 - [Kalibrr] Exhausted all 3 retries for https://www.kalibrr.com/api/job_board/search
+2026-09-28 19:35:38 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:35:39 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Credit+Risk+Analyst&country=ID&cityName=Jakarta&limit=15&page=1'
+2026-09-28 19:35:39 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/credit-risk-analyst/co/Indonesia (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/credit-risk-analyst/co/Indonesia'
+2026-09-28 19:35:42 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/credit-risk-analyst/co/Indonesia (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/credit-risk-analyst/co/Indonesia'
+2026-09-28 19:35:44 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Credit+Risk+Analyst&country=ID&cityName=Jakarta&limit=15&page=1'
+2026-09-28 19:35:44 | ERROR    | src.scrapers.base:132 - [Glints] Exhausted all 3 retries for https://glints.com/api/job-posts
+2026-09-28 19:35:44 | INFO     | src.scrapers.glints:56 - [Glints] Searching for 'Credit Risk Analyst' in 'Tarakan'
+2026-09-28 19:35:44 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:35:45 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Analyst&country=ID (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Analyst&country=ID'
+2026-09-28 19:35:47 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/credit-risk-analyst/co/Indonesia (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/credit-risk-analyst/co/Indonesia'
+2026-09-28 19:35:47 | ERROR    | src.scrapers.base:132 - [Kalibrr] Exhausted all 3 retries for https://www.kalibrr.com/job-board/te/credit-risk-analyst/co/Indonesia
+2026-09-28 19:35:47 | INFO     | src.scrapers.kalibrr:44 - [Kalibrr] Searching for 'Credit Risk Analyst' in 'Tarakan'
+2026-09-28 19:35:47 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:35:47 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Analyst&country=ID (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Analyst&country=ID'
+2026-09-28 19:35:48 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Credit+Risk+Analyst&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:35:50 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Credit+Risk+Analyst&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:35:52 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Analyst&country=ID (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Analyst&country=ID'
+2026-09-28 19:35:52 | ERROR    | src.scrapers.base:132 - [Glints] Exhausted all 3 retries for https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Analyst&country=ID
+2026-09-28 19:35:52 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:35:52 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Credit+Risk+Analyst&country=ID&cityName=Tarakan&limit=15&page=1'
+2026-09-28 19:35:55 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Credit+Risk+Analyst&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:35:55 | ERROR    | src.scrapers.base:132 - [Kalibrr] Exhausted all 3 retries for https://www.kalibrr.com/api/job_board/search
+2026-09-28 19:35:55 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:35:55 | ERROR    | telegram.ext.Updater:371 - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 680, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 4767, in get_updates
+    await self._post(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-09-28 19:35:55 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Credit+Risk+Analyst&country=ID&cityName=Tarakan&limit=15&page=1'
+2026-09-28 19:35:56 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/credit-risk-analyst/co/Indonesia (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/credit-risk-analyst/co/Indonesia'
+2026-09-28 19:35:58 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/credit-risk-analyst/co/Indonesia (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/credit-risk-analyst/co/Indonesia'
+2026-09-28 19:36:00 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Credit+Risk+Analyst&country=ID&cityName=Tarakan&limit=15&page=1'
+2026-09-28 19:36:00 | ERROR    | src.scrapers.base:132 - [Glints] Exhausted all 3 retries for https://glints.com/api/job-posts
+2026-09-28 19:36:00 | INFO     | src.scrapers.glints:56 - [Glints] Searching for 'Credit Risk Analyst' in 'Indonesia'
+2026-09-28 19:36:00 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:36:00 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Analyst&country=ID (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Analyst&country=ID'
+2026-09-28 19:36:03 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/credit-risk-analyst/co/Indonesia (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/credit-risk-analyst/co/Indonesia'
+2026-09-28 19:36:03 | ERROR    | src.scrapers.base:132 - [Kalibrr] Exhausted all 3 retries for https://www.kalibrr.com/job-board/te/credit-risk-analyst/co/Indonesia
+2026-09-28 19:36:03 | INFO     | src.scrapers.kalibrr:44 - [Kalibrr] Searching for 'Credit Risk Analyst' in 'Indonesia'
+2026-09-28 19:36:03 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:36:03 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Analyst&country=ID (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Analyst&country=ID'
+2026-09-28 19:36:04 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Credit+Risk+Analyst&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:36:06 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Credit+Risk+Analyst&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:36:07 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Analyst&country=ID (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Analyst&country=ID'
+2026-09-28 19:36:07 | ERROR    | src.scrapers.base:132 - [Glints] Exhausted all 3 retries for https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Analyst&country=ID
+2026-09-28 19:36:08 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:36:08 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Credit+Risk+Analyst&country=ID&cityName=&limit=15&page=1'
+2026-09-28 19:36:11 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Credit+Risk+Analyst&country=ID&cityName=&limit=15&page=1'
+2026-09-28 19:36:11 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Credit+Risk+Analyst&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:36:11 | ERROR    | src.scrapers.base:132 - [Kalibrr] Exhausted all 3 retries for https://www.kalibrr.com/api/job_board/search
+2026-09-28 19:36:11 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:36:12 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/credit-risk-analyst/co/Indonesia (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/credit-risk-analyst/co/Indonesia'
+2026-09-28 19:36:15 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/credit-risk-analyst/co/Indonesia (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/credit-risk-analyst/co/Indonesia'
+2026-09-28 19:36:15 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Credit+Risk+Analyst&country=ID&cityName=&limit=15&page=1'
+2026-09-28 19:36:15 | ERROR    | src.scrapers.base:132 - [Glints] Exhausted all 3 retries for https://glints.com/api/job-posts
+2026-09-28 19:36:15 | INFO     | src.scrapers.glints:56 - [Glints] Searching for 'Credit Risk Analyst' in 'Remote'
+2026-09-28 19:36:15 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:36:16 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Analyst&country=ID (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Analyst&country=ID'
+2026-09-28 19:36:18 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Analyst&country=ID (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Analyst&country=ID'
+2026-09-28 19:36:20 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/credit-risk-analyst/co/Indonesia (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/credit-risk-analyst/co/Indonesia'
+2026-09-28 19:36:20 | ERROR    | src.scrapers.base:132 - [Kalibrr] Exhausted all 3 retries for https://www.kalibrr.com/job-board/te/credit-risk-analyst/co/Indonesia
+2026-09-28 19:36:20 | INFO     | src.scrapers.kalibrr:44 - [Kalibrr] Searching for 'Credit Risk Analyst' in 'Remote'
+2026-09-28 19:36:20 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:36:20 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Credit+Risk+Analyst&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:36:23 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Credit+Risk+Analyst&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:36:23 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Analyst&country=ID (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Analyst&country=ID'
+2026-09-28 19:36:23 | ERROR    | src.scrapers.base:132 - [Glints] Exhausted all 3 retries for https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Analyst&country=ID
+2026-09-28 19:36:23 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:36:23 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Credit+Risk+Analyst&country=ID&cityName=Remote&limit=15&page=1'
+2026-09-28 19:36:26 | ERROR    | telegram.ext.Updater:371 - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 680, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 4767, in get_updates
+    await self._post(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-09-28 19:36:26 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Credit+Risk+Analyst&country=ID&cityName=Remote&limit=15&page=1'
+2026-09-28 19:36:27 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Credit+Risk+Analyst&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:36:27 | ERROR    | src.scrapers.base:132 - [Kalibrr] Exhausted all 3 retries for https://www.kalibrr.com/api/job_board/search
+2026-09-28 19:36:27 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:36:28 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/credit-risk-analyst/co/Indonesia (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/credit-risk-analyst/co/Indonesia'
+2026-09-28 19:36:30 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Credit+Risk+Analyst&country=ID&cityName=Remote&limit=15&page=1'
+2026-09-28 19:36:30 | ERROR    | src.scrapers.base:132 - [Glints] Exhausted all 3 retries for https://glints.com/api/job-posts
+2026-09-28 19:36:30 | INFO     | src.scrapers.glints:56 - [Glints] Searching for 'Head of Underwriting' in 'Jakarta'
+2026-09-28 19:36:30 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:36:31 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/credit-risk-analyst/co/Indonesia (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/credit-risk-analyst/co/Indonesia'
+2026-09-28 19:36:31 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Head%20of%20Underwriting&country=ID (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Head%20of%20Underwriting&country=ID'
+2026-09-28 19:36:34 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Head%20of%20Underwriting&country=ID (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Head%20of%20Underwriting&country=ID'
+2026-09-28 19:36:36 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/credit-risk-analyst/co/Indonesia (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/credit-risk-analyst/co/Indonesia'
+2026-09-28 19:36:36 | ERROR    | src.scrapers.base:132 - [Kalibrr] Exhausted all 3 retries for https://www.kalibrr.com/job-board/te/credit-risk-analyst/co/Indonesia
+2026-09-28 19:36:36 | INFO     | src.scrapers.kalibrr:44 - [Kalibrr] Searching for 'Head of Underwriting' in 'Jakarta'
+2026-09-28 19:36:36 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:36:36 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Head+of+Underwriting&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:36:38 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Head%20of%20Underwriting&country=ID (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Head%20of%20Underwriting&country=ID'
+2026-09-28 19:36:38 | ERROR    | src.scrapers.base:132 - [Glints] Exhausted all 3 retries for https://glints.com/id/opportunities/jobs/explore?keyword=Head%20of%20Underwriting&country=ID
+2026-09-28 19:36:38 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:36:39 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Head+of+Underwriting&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:36:39 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Head+of+Underwriting&country=ID&cityName=Jakarta&limit=15&page=1'
+2026-09-28 19:36:42 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Head+of+Underwriting&country=ID&cityName=Jakarta&limit=15&page=1'
+2026-09-28 19:36:43 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Head+of+Underwriting&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:36:43 | ERROR    | src.scrapers.base:132 - [Kalibrr] Exhausted all 3 retries for https://www.kalibrr.com/api/job_board/search
+2026-09-28 19:36:43 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:36:44 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/head-of-underwriting/co/Indonesia (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/head-of-underwriting/co/Indonesia'
+2026-09-28 19:36:46 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Head+of+Underwriting&country=ID&cityName=Jakarta&limit=15&page=1'
+2026-09-28 19:36:46 | ERROR    | src.scrapers.base:132 - [Glints] Exhausted all 3 retries for https://glints.com/api/job-posts
+2026-09-28 19:36:46 | INFO     | src.scrapers.glints:56 - [Glints] Searching for 'Head of Underwriting' in 'Tarakan'
+2026-09-28 19:36:46 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:36:46 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Head%20of%20Underwriting&country=ID (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Head%20of%20Underwriting&country=ID'
+2026-09-28 19:36:47 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/head-of-underwriting/co/Indonesia (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/head-of-underwriting/co/Indonesia'
+2026-09-28 19:36:49 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Head%20of%20Underwriting&country=ID (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Head%20of%20Underwriting&country=ID'
+2026-09-28 19:36:52 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/head-of-underwriting/co/Indonesia (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/head-of-underwriting/co/Indonesia'
+2026-09-28 19:36:52 | ERROR    | src.scrapers.base:132 - [Kalibrr] Exhausted all 3 retries for https://www.kalibrr.com/job-board/te/head-of-underwriting/co/Indonesia
+2026-09-28 19:36:52 | INFO     | src.scrapers.kalibrr:44 - [Kalibrr] Searching for 'Head of Underwriting' in 'Tarakan'
+2026-09-28 19:36:52 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:36:53 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Head+of+Underwriting&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:36:54 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Head%20of%20Underwriting&country=ID (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Head%20of%20Underwriting&country=ID'
+2026-09-28 19:36:54 | ERROR    | src.scrapers.base:132 - [Glints] Exhausted all 3 retries for https://glints.com/id/opportunities/jobs/explore?keyword=Head%20of%20Underwriting&country=ID
+2026-09-28 19:36:54 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:36:54 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Head+of+Underwriting&country=ID&cityName=Tarakan&limit=15&page=1'
+2026-09-28 19:36:55 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Head+of+Underwriting&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:36:57 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Head+of+Underwriting&country=ID&cityName=Tarakan&limit=15&page=1'
+2026-09-28 19:37:00 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Head+of+Underwriting&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:37:00 | ERROR    | src.scrapers.base:132 - [Kalibrr] Exhausted all 3 retries for https://www.kalibrr.com/api/job_board/search
+2026-09-28 19:37:00 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:37:00 | ERROR    | telegram.ext.Updater:371 - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 680, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 4767, in get_updates
+    await self._post(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-09-28 19:37:01 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/head-of-underwriting/co/Indonesia (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/head-of-underwriting/co/Indonesia'
+2026-09-28 19:37:01 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Head+of+Underwriting&country=ID&cityName=Tarakan&limit=15&page=1'
+2026-09-28 19:37:01 | ERROR    | src.scrapers.base:132 - [Glints] Exhausted all 3 retries for https://glints.com/api/job-posts
+2026-09-28 19:37:01 | INFO     | src.scrapers.glints:56 - [Glints] Searching for 'Head of Underwriting' in 'Indonesia'
+2026-09-28 19:37:01 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:37:02 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Head%20of%20Underwriting&country=ID (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Head%20of%20Underwriting&country=ID'
+2026-09-28 19:37:04 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/head-of-underwriting/co/Indonesia (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/head-of-underwriting/co/Indonesia'
+2026-09-28 19:37:04 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Head%20of%20Underwriting&country=ID (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Head%20of%20Underwriting&country=ID'
+2026-09-28 19:37:09 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/head-of-underwriting/co/Indonesia (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/head-of-underwriting/co/Indonesia'
+2026-09-28 19:37:09 | ERROR    | src.scrapers.base:132 - [Kalibrr] Exhausted all 3 retries for https://www.kalibrr.com/job-board/te/head-of-underwriting/co/Indonesia
+2026-09-28 19:37:09 | INFO     | src.scrapers.kalibrr:44 - [Kalibrr] Searching for 'Head of Underwriting' in 'Indonesia'
+2026-09-28 19:37:09 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:37:09 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Head%20of%20Underwriting&country=ID (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Head%20of%20Underwriting&country=ID'
+2026-09-28 19:37:09 | ERROR    | src.scrapers.base:132 - [Glints] Exhausted all 3 retries for https://glints.com/id/opportunities/jobs/explore?keyword=Head%20of%20Underwriting&country=ID
+2026-09-28 19:37:09 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:37:09 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Head+of+Underwriting&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:37:10 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Head+of+Underwriting&country=ID&cityName=&limit=15&page=1'
+2026-09-28 19:37:12 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Head+of+Underwriting&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:37:12 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Head+of+Underwriting&country=ID&cityName=&limit=15&page=1'
+2026-09-28 19:37:17 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Head+of+Underwriting&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:37:17 | ERROR    | src.scrapers.base:132 - [Kalibrr] Exhausted all 3 retries for https://www.kalibrr.com/api/job_board/search
+2026-09-28 19:37:17 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:37:17 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Head+of+Underwriting&country=ID&cityName=&limit=15&page=1'
+2026-09-28 19:37:17 | ERROR    | src.scrapers.base:132 - [Glints] Exhausted all 3 retries for https://glints.com/api/job-posts
+2026-09-28 19:37:17 | INFO     | src.scrapers.glints:56 - [Glints] Searching for 'Head of Underwriting' in 'Remote'
+2026-09-28 19:37:17 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:37:17 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/head-of-underwriting/co/Indonesia (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/head-of-underwriting/co/Indonesia'
+2026-09-28 19:37:18 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Head%20of%20Underwriting&country=ID (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Head%20of%20Underwriting&country=ID'
+2026-09-28 19:37:20 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Head%20of%20Underwriting&country=ID (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Head%20of%20Underwriting&country=ID'
+2026-09-28 19:37:20 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/head-of-underwriting/co/Indonesia (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/head-of-underwriting/co/Indonesia'
+2026-09-28 19:37:25 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Head%20of%20Underwriting&country=ID (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Head%20of%20Underwriting&country=ID'
+2026-09-28 19:37:25 | ERROR    | src.scrapers.base:132 - [Glints] Exhausted all 3 retries for https://glints.com/id/opportunities/jobs/explore?keyword=Head%20of%20Underwriting&country=ID
+2026-09-28 19:37:25 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:37:25 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/head-of-underwriting/co/Indonesia (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/head-of-underwriting/co/Indonesia'
+2026-09-28 19:37:25 | ERROR    | src.scrapers.base:132 - [Kalibrr] Exhausted all 3 retries for https://www.kalibrr.com/job-board/te/head-of-underwriting/co/Indonesia
+2026-09-28 19:37:25 | INFO     | src.scrapers.kalibrr:44 - [Kalibrr] Searching for 'Head of Underwriting' in 'Remote'
+2026-09-28 19:37:25 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:37:25 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Head+of+Underwriting&country=ID&cityName=Remote&limit=15&page=1'
+2026-09-28 19:37:26 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Head+of+Underwriting&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:37:28 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Head+of+Underwriting&country=ID&cityName=Remote&limit=15&page=1'
+2026-09-28 19:37:28 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Head+of+Underwriting&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:37:33 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Head+of+Underwriting&country=ID&cityName=Remote&limit=15&page=1'
+2026-09-28 19:37:33 | ERROR    | src.scrapers.base:132 - [Glints] Exhausted all 3 retries for https://glints.com/api/job-posts
+2026-09-28 19:37:33 | INFO     | src.scrapers.glints:56 - [Glints] Searching for 'Commercial Banking Relationship Manager' in 'Jakarta'
+2026-09-28 19:37:33 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:37:33 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Head+of+Underwriting&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:37:33 | ERROR    | src.scrapers.base:132 - [Kalibrr] Exhausted all 3 retries for https://www.kalibrr.com/api/job_board/search
+2026-09-28 19:37:33 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:37:33 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Commercial%20Banking%20Relationship%20Manager&country=ID (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Commercial%20Banking%20Relationship%20Manager&country=ID'
+2026-09-28 19:37:34 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/head-of-underwriting/co/Indonesia (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/head-of-underwriting/co/Indonesia'
+2026-09-28 19:37:35 | ERROR    | telegram.ext.Updater:371 - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 680, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 4767, in get_updates
+    await self._post(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-09-28 19:37:36 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Commercial%20Banking%20Relationship%20Manager&country=ID (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Commercial%20Banking%20Relationship%20Manager&country=ID'
+2026-09-28 19:37:37 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/head-of-underwriting/co/Indonesia (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/head-of-underwriting/co/Indonesia'
+2026-09-28 19:37:40 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Commercial%20Banking%20Relationship%20Manager&country=ID (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Commercial%20Banking%20Relationship%20Manager&country=ID'
+2026-09-28 19:37:40 | ERROR    | src.scrapers.base:132 - [Glints] Exhausted all 3 retries for https://glints.com/id/opportunities/jobs/explore?keyword=Commercial%20Banking%20Relationship%20Manager&country=ID
+2026-09-28 19:37:40 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:37:41 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Commercial+Banking+Relationship+Manager&country=ID&cityName=Jakarta&limit=15&page=1'
+2026-09-28 19:37:42 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/head-of-underwriting/co/Indonesia (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/head-of-underwriting/co/Indonesia'
+2026-09-28 19:37:42 | ERROR    | src.scrapers.base:132 - [Kalibrr] Exhausted all 3 retries for https://www.kalibrr.com/job-board/te/head-of-underwriting/co/Indonesia
+2026-09-28 19:37:42 | INFO     | src.scrapers.kalibrr:44 - [Kalibrr] Searching for 'Commercial Banking Relationship Manager' in 'Jakarta'
+2026-09-28 19:37:42 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:37:42 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Commercial+Banking+Relationship+Manager&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:37:44 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Commercial+Banking+Relationship+Manager&country=ID&cityName=Jakarta&limit=15&page=1'
+2026-09-28 19:37:45 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Commercial+Banking+Relationship+Manager&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:37:48 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Commercial+Banking+Relationship+Manager&country=ID&cityName=Jakarta&limit=15&page=1'
+2026-09-28 19:37:48 | ERROR    | src.scrapers.base:132 - [Glints] Exhausted all 3 retries for https://glints.com/api/job-posts
+2026-09-28 19:37:48 | INFO     | src.scrapers.glints:56 - [Glints] Searching for 'Commercial Banking Relationship Manager' in 'Tarakan'
+2026-09-28 19:37:48 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:37:49 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Commercial%20Banking%20Relationship%20Manager&country=ID (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Commercial%20Banking%20Relationship%20Manager&country=ID'
+2026-09-28 19:37:50 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Commercial+Banking+Relationship+Manager&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:37:50 | ERROR    | src.scrapers.base:132 - [Kalibrr] Exhausted all 3 retries for https://www.kalibrr.com/api/job_board/search
+2026-09-28 19:37:50 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:37:51 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/commercial-banking-relationship-manager/co/Indonesia (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/commercial-banking-relationship-manager/co/Indonesia'
+2026-09-28 19:37:51 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Commercial%20Banking%20Relationship%20Manager&country=ID (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Commercial%20Banking%20Relationship%20Manager&country=ID'
+2026-09-28 19:37:54 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/commercial-banking-relationship-manager/co/Indonesia (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/commercial-banking-relationship-manager/co/Indonesia'
+2026-09-28 19:37:57 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Commercial%20Banking%20Relationship%20Manager&country=ID (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Commercial%20Banking%20Relationship%20Manager&country=ID'
+2026-09-28 19:37:57 | ERROR    | src.scrapers.base:132 - [Glints] Exhausted all 3 retries for https://glints.com/id/opportunities/jobs/explore?keyword=Commercial%20Banking%20Relationship%20Manager&country=ID
+2026-09-28 19:37:57 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:37:58 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Commercial+Banking+Relationship+Manager&country=ID&cityName=Tarakan&limit=15&page=1'
+2026-09-28 19:37:58 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/commercial-banking-relationship-manager/co/Indonesia (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/commercial-banking-relationship-manager/co/Indonesia'
+2026-09-28 19:37:58 | ERROR    | src.scrapers.base:132 - [Kalibrr] Exhausted all 3 retries for https://www.kalibrr.com/job-board/te/commercial-banking-relationship-manager/co/Indonesia
+2026-09-28 19:37:58 | INFO     | src.scrapers.kalibrr:44 - [Kalibrr] Searching for 'Commercial Banking Relationship Manager' in 'Tarakan'
+2026-09-28 19:37:58 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:37:59 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Commercial+Banking+Relationship+Manager&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:38:00 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Commercial+Banking+Relationship+Manager&country=ID&cityName=Tarakan&limit=15&page=1'
+2026-09-28 19:38:01 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Commercial+Banking+Relationship+Manager&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:38:05 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Commercial+Banking+Relationship+Manager&country=ID&cityName=Tarakan&limit=15&page=1'
+2026-09-28 19:38:05 | ERROR    | src.scrapers.base:132 - [Glints] Exhausted all 3 retries for https://glints.com/api/job-posts
+2026-09-28 19:38:05 | INFO     | src.scrapers.glints:56 - [Glints] Searching for 'Commercial Banking Relationship Manager' in 'Indonesia'
+2026-09-28 19:38:05 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:38:06 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Commercial%20Banking%20Relationship%20Manager&country=ID (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Commercial%20Banking%20Relationship%20Manager&country=ID'
