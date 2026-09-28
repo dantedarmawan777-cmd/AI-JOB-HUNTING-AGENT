@@ -59,14 +59,82 @@ async def start_handler(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
         f"• 💬 *Chat Langsung:* Tanya lowongan, minta evaluasi CV, atau minta buatin cover letter via Gemini AI.\n"
         f"• `/status` - Lihat metrik & progres pipeline lamaran\n"
         f"• `/pending` - Lihat lowongan shortlisted yang menunggu approval\n"
+        f"• `/scrape` - Jalankan scraping pencarian lowongan baru sekarang\n"
+        f"• `/interval <jam>` - Atur jadwal auto-scrape (misal `/interval 6` atau `/interval 12`)\n"
         f"• `/approve <id>` - Setujui lowongan untuk auto-apply\n"
         f"• `/reject <id>` - Skip / tolak lowongan\n\n"
-        f"⚙️ *Mode:* `{'Dry Run (Simulasi Aman)' if config.dry_run else 'Live Submission'}` | 🎯 *Min Fit:* `{config.min_match_score}%`\n"
+        f"⚙️ *Mode:* `{'Dry Run (Simulasi Aman)' if config.dry_run else 'Live Submission'}` | "
+        f"⏱️ *Auto-Scrape:* `Setiap {config.scrape_interval_hours} Jam` | 🎯 *Min Fit:* `{config.min_match_score}%`\n"
     )
     await update.effective_message.reply_text(
         welcome_text,
         parse_mode=ParseMode.MARKDOWN,
     )
+
+
+async def scrape_command_handler(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    """Handle /scrape command to trigger search cycle immediately."""
+    if not update.effective_message:
+        return
+
+    if not is_authorized(update):
+        await update.effective_message.reply_text("⛔ Akses ditolak. Bot ini khusus untuk pengguna terotorisasi.")
+        return
+
+    await update.effective_message.reply_text(
+        "⏳ *Memulai pemindaian multi-board di background...*\n"
+        "Lowongan baru yang lolos seleksi (>75% fit) akan langsung dikirimkan ke chat ini.",
+        parse_mode=ParseMode.MARKDOWN,
+    )
+
+    async def _run_scrape():
+        from src.scrapers.manager import scraper_manager
+        shortlisted = await scraper_manager.run_all()
+        for j in shortlisted:
+            if update.effective_chat:
+                from src.telegram_hitl.bot import telegram_bot
+                await telegram_bot.send_job_alert(j, target_chat_id=update.effective_chat.id)
+            await asyncio.sleep(1.0)
+
+    asyncio.create_task(_run_scrape())
+
+
+async def interval_command_handler(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    """Handle /interval <hours> command to view or update auto-scrape schedule."""
+    if not update.effective_message:
+        return
+
+    if not is_authorized(update):
+        await update.effective_message.reply_text("⛔ Akses ditolak. Bot ini khusus untuk pengguna terotorisasi.")
+        return
+
+    args = context.args
+    if not args:
+        await update.effective_message.reply_text(
+            f"⏱️ *Jadwal Auto-Scrape Saat Ini:* Setiap *{config.scrape_interval_hours} jam*.\n\n"
+            f"Untuk mengubah jadwal, ketik:\n"
+            f"• `/interval 6` - Auto-scrape setiap 6 jam\n"
+            f"• `/interval 12` - Auto-scrape setiap 12 jam\n"
+            f"• `/interval 24` - Auto-scrape 1x sehari",
+            parse_mode=ParseMode.MARKDOWN,
+        )
+        return
+
+    try:
+        new_hours = int(args[0].strip())
+        if new_hours < 1 or new_hours > 72:
+            await update.effective_message.reply_text("⚠️ Masukkan angka interval yang valid antara 1 hingga 72 jam.")
+            return
+
+        config.scrape_interval_hours = new_hours
+        await update.effective_message.reply_text(
+            f"✅ *Jadwal Auto-Scrape Berhasil Diperbarui!*\n"
+            f"Sistem akan otomatis memindai lowongan baru setiap *{new_hours} jam*.",
+            parse_mode=ParseMode.MARKDOWN,
+        )
+    except ValueError:
+        await update.effective_message.reply_text("⚠️ Format salah. Contoh penggunaan: `/interval 6` atau `/interval 12`.")
+
 
 
 async def gemini_chat_handler(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
