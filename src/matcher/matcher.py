@@ -199,13 +199,16 @@ class JobMatcher:
         if re.search(r"\b(credit|underwrit|risk|sme|commercial|lending|policy)\b", title, re.IGNORECASE):
             title_boost = 0.12
 
-        # Weighted calculation
+        # Weighted calculation with domain flexibility (Commercial Banking OR FinTech)
+        domain_primary = max(score_sme, score_fin)
+        domain_secondary = min(score_sme, score_fin)
+
         raw_score = (
-            score_cr * self.WEIGHTS["credit_risk_underwriting"]
-            + score_sme * self.WEIGHTS["sme_commercial_banking"]
-            + score_fin * self.WEIGHTS["fintech_digital_lending"]
-            + score_lead * self.WEIGHTS["leadership_stakeholder"]
-            + score_sen * self.WEIGHTS["seniority_fit"]
+            score_cr * 0.35
+            + domain_primary * 0.30
+            + domain_secondary * 0.05
+            + score_lead * 0.15
+            + score_sen * 0.15
             + title_boost
         )
 
