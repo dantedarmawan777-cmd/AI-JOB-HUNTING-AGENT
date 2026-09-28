@@ -76,9 +76,10 @@ async def display_stats() -> None:
     print("========================================\n")
 
 
-async def run_daemon(poll_interval_hours: int = 4) -> None:
+async def run_daemon(poll_interval_hours: Optional[int] = None) -> None:
     """Run full automation daemon with Web Dashboard, Telegram HITL, and periodic scraping."""
-    logger.info("Starting Job Hunting Automation Daemon & Web Dashboard...")
+    interval = poll_interval_hours or config.scrape_interval_hours
+    logger.info("Starting Job Hunting Automation Daemon & Web Dashboard (Auto-Scrape Interval: %d hours)...", interval)
 
     # 1. Start Web Dashboard HTTP Server (for Railway Public Networking)
     dashboard_runner = await run_dashboard_server(host=config.host, port=config.port)
@@ -93,8 +94,9 @@ async def run_daemon(poll_interval_hours: int = 4) -> None:
             except Exception as e:
                 logger.error("Error during scheduled scraper cycle: %s", e, exc_info=True)
 
-            logger.info("Sleeping for %d hours until next scraping cycle...", poll_interval_hours)
-            await asyncio.sleep(poll_interval_hours * 3600)
+            current_interval = config.scrape_interval_hours
+            logger.info("Sleeping for %d hours until next auto-scraping cycle...", current_interval)
+            await asyncio.sleep(current_interval * 3600)
     except asyncio.CancelledError:
         logger.info("Daemon cancelled, shutting down...")
     finally:
@@ -109,6 +111,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Autonomous Job Hunting & HITL Agent")
     parser.add_argument("--scrape", action="store_true", help="Run one-time scraping and matching cycle")
     parser.add_argument("--serve", action="store_true", help="Start continuous Telegram HITL daemon")
+    parser.add_argument("--interval", type=int, default=None, help="Auto-scrape interval in hours (e.g. 6 or 12)")
     parser.add_argument("--apply", type=str, metavar="JOB_ID", help="Execute Playwright auto-fill for job ID")
     parser.add_argument("--cv", type=str, default="EN", choices=["EN", "ID"], help="CV language to use (EN/ID)")
     parser.add_argument("--stats", action="store_true", help="Display SQLite database pipeline metrics")
@@ -121,6 +124,8 @@ def main() -> None:
         config.headless = True
     if args.live:
         config.dry_run = False
+    if args.interval:
+        config.scrape_interval_hours = args.interval
 
     if args.stats:
         asyncio.run(display_stats())
@@ -129,9 +134,10 @@ def main() -> None:
     elif args.scrape:
         asyncio.run(run_scraper_cycle())
     elif args.serve:
-        asyncio.run(run_daemon())
+        asyncio.run(run_daemon(poll_interval_hours=args.interval))
     else:
         parser.print_help()
+
 
 
 if __name__ == "__main__":
