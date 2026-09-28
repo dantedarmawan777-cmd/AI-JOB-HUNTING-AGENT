@@ -98,6 +98,21 @@ class Database:
             await db.executescript(SCHEMA_SQL)
             await db.commit()
 
+    async def ensure_initial_seeds(self) -> None:
+        """Seed initial target jobs immediately if database is empty on boot."""
+        try:
+            stats = await self.get_statistics()
+            if stats.get("total", 0) < 4:
+                from src.matcher.seed_jobs import get_curated_seed_jobs
+                seed_jobs = get_curated_seed_jobs()
+                for s_job in seed_jobs:
+                    if not await self.job_exists(s_job.url):
+                        await self.save_job(s_job)
+                logger.info("Auto-seeded %d target opportunities on boot.", len(seed_jobs))
+        except Exception as e:
+            logger.warning("Auto-seed error: %s", e)
+
+
     # --------------------------------------------------------------------------
     # Job CRUD Operations
     # --------------------------------------------------------------------------
