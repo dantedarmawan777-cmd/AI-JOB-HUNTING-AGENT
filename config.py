@@ -63,6 +63,10 @@ class AppConfig(BaseModel):
     max_job_age_days: int = Field(
         default_factory=lambda: int(os.getenv("MAX_JOB_AGE_DAYS", "14"))
     )
+    scrape_interval_hours: int = Field(
+        default_factory=lambda: int(os.getenv("SCRAPE_INTERVAL_HOURS", "6"))
+    )
+
 
     # File Paths
     candidate_profile_path: Path = Field(
