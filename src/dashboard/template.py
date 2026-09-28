@@ -716,21 +716,30 @@ DASHBOARD_HTML = """<!DOCTYPE html>
 
     async function triggerScrape() {
       const btn = document.getElementById('scrape-btn');
-      btn.innerText = '⏳ Sedang Memindai...';
+      btn.innerText = '⏳ Memindai Multi-Board...';
       btn.disabled = true;
       try {
         await fetch('/api/scrape', { method: 'POST' });
-        setTimeout(() => {
-          btn.innerText = '⚡ Scrape Lowongan Baru';
-          btn.disabled = false;
-          fetchJobs();
-          fetchStats();
-        }, 5000);
+        let elapsed = 0;
+        const interval = setInterval(async () => {
+          elapsed += 2;
+          await fetchStats();
+          await fetchJobs();
+          if (elapsed >= 8) {
+            clearInterval(interval);
+            btn.innerText = '✅ Pemindaian Selesai';
+            setTimeout(() => {
+              btn.innerText = '⚡ Scrape Lowongan Baru';
+              btn.disabled = false;
+            }, 2500);
+          }
+        }, 2000);
       } catch (e) {
         btn.innerText = '⚡ Scrape Lowongan Baru';
         btn.disabled = false;
       }
     }
+
 
     async function sendChatMessage() {
       const input = document.getElementById('chat-input-field');
