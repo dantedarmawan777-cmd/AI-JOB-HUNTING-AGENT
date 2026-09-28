@@ -6,16 +6,24 @@ Defines common networking, retry logic, headers spoofing, and parsing utilities.
 from __future__ import annotations
 
 import asyncio
+import random
 import re
 from abc import ABC, abstractmethod
 from typing import Any, Dict, List, Optional, Tuple
 import aiohttp
-from fake_useragent import UserAgent
 
 from src.core.logger import get_logger
 from src.core.models import Job, PlatformEnum
 
 logger = get_logger(__name__)
+
+DESKTOP_USER_AGENTS = [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15",
+]
 
 
 class BaseScraper(ABC):
@@ -26,15 +34,27 @@ class BaseScraper(ABC):
         self.platform = platform
         self.base_url = base_url
         self._session: Optional[aiohttp.ClientSession] = None
-        self._ua: Optional[UserAgent] = None
-        try:
-            self._ua = UserAgent(platforms="pc", fallback="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36")
-        except Exception:
-            self._ua = None
 
     async def get_session(self) -> aiohttp.ClientSession:
-        """Acquire or create an async HTTP client session with realistic headers."""
-        if self._session is None or self._session.closed:
+        """Acquire or create an async HTTP client session bound to the active event loop."""
+        try:
+            current_loop = asyncio.get_running_loop()
+        except RuntimeError:
+            current_loop = None
+
+        is_invalid = (
+            self._session is None
+            or self._session.closed
+            or (current_loop and getattr(self._session, "_loop", None) != current_loop)
+            or (self._session._loop and self._session._loop.is_closed())
+        )
+
+        if is_invalid:
+            if self._session and not self._session.closed:
+                try:
+                    await self._session.close()
+                except Exception:
+                    pass
             timeout = aiohttp.ClientTimeout(total=25, connect=10)
             connector = aiohttp.TCPConnector(limit=10, ssl=False)
             self._session = aiohttp.ClientSession(
@@ -45,17 +65,12 @@ class BaseScraper(ABC):
         return self._session
 
     def get_default_headers(self) -> Dict[str, str]:
-        """Generate browser-like request headers."""
-        ua_str = (
-            self._ua.random
-            if self._ua
-            else "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-        )
+        """Generate realistic browser-like request headers."""
         return {
-            "User-Agent": ua_str,
+            "User-Agent": random.choice(DESKTOP_USER_AGENTS),
             "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,application/json,*/*;q=0.8",
             "Accept-Language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7",
-            "Accept-Encoding": "gzip, deflate, br",
+            "Accept-Encoding": "gzip, deflate",
             "Connection": "keep-alive",
             "Upgrade-Insecure-Requests": "1",
             "Sec-Fetch-Dest": "document",
@@ -67,7 +82,10 @@ class BaseScraper(ABC):
     async def close(self) -> None:
         """Close the underlying aiohttp session."""
         if self._session and not self._session.closed:
-            await self._session.close()
+            try:
+                await self._session.close()
+            except Exception:
+                pass
             self._session = None
 
     async def __aenter__(self) -> BaseScraper:
@@ -84,16 +102,16 @@ class BaseScraper(ABC):
         headers: Optional[Dict[str, str]] = None,
         is_json: bool = False,
         retries: int = 3,
-        backoff_seconds: float = 2.0,
+        backoff_seconds: float = 1.5,
     ) -> Optional[Any]:
         """
         Fetch URL with exponential backoff and rate limit handling.
         """
-        session = await self.get_session()
         req_headers = {**self.get_default_headers(), **(headers or {})}
 
         for attempt in range(1, retries + 1):
             try:
+                session = await self.get_session()
                 async with session.get(url, params=params, headers=req_headers) as response:
                     if response.status == 200:
                         if is_json:
@@ -115,7 +133,7 @@ class BaseScraper(ABC):
                         await asyncio.sleep(wait)
                     else:
                         logger.warning(
-                            "[%s] Request to %s failed with status %d",
+                            "[%s] Request to %s returned HTTP %d",
                             self.name, url, response.status
                         )
                         return None
@@ -136,10 +154,6 @@ class BaseScraper(ABC):
     def parse_salary(salary_raw: Optional[str]) -> Tuple[Optional[str], Optional[float], Optional[float], Optional[str]]:
         """
         Parse raw salary strings into (display_str, min_val, max_val, currency).
-        Examples:
-          - "IDR 25.000.000 - 35.000.000 per month" -> ("IDR 25,000,000 - 35,000,000", 25000000.0, 35000000.0, "IDR")
-          - "Rp 15,000,000 - Rp 20,000,000" -> ("IDR 15,000,000 - 20,000,000", 15000000.0, 20000000.0, "IDR")
-          - "SGD 5,000 - 7,000" -> ("SGD 5,000 - 7,000", 5000.0, 7000.0, "SGD")
         """
         if not salary_raw or not salary_raw.strip():
             return None, None, None, "IDR"
@@ -153,18 +167,14 @@ class BaseScraper(ABC):
         elif "myr" in raw.lower() or "rm" in raw.lower():
             currency = "MYR"
 
-        # Find numbers
-        # Clean Indonesian dots/commas
         cleaned = re.sub(r"[^\d\s\-\–kKmM\.,]", "", raw)
         numbers = re.findall(r"\b\d{1,3}(?:[.,]\d{3})*(?:[.,]\d+)?\b|\b\d+\b", cleaned)
 
         parsed_nums: List[float] = []
         for num_str in numbers:
-            # Handle dots vs commas
             num_clean = num_str.replace(".", "").replace(",", "")
             try:
                 val = float(num_clean)
-                # Handle shorthand e.g. "25 jt" or "25m"
                 if "jt" in raw.lower() or "juta" in raw.lower():
                     if val < 1000:
                         val *= 1_000_000
@@ -186,28 +196,10 @@ class BaseScraper(ABC):
         locations: List[str],
         limit_per_keyword: int = 15,
     ) -> List[Job]:
-        """
-        Execute search on job board for specified keywords and locations.
-
-        Args:
-            keywords: List of job title / query terms
-            locations: List of target locations (e.g., 'Jakarta', 'Indonesia')
-            limit_per_keyword: Maximum job results to collect per keyword/location combo
-
-        Returns:
-            List of parsed Job models
-        """
+        """Execute search on job board for specified keywords and locations."""
         pass
 
     @abstractmethod
     async def fetch_job_details(self, job: Job) -> Job:
-        """
-        Enrich job model with full description, requirements, and screening questions.
-
-        Args:
-            job: Partial Job model
-
-        Returns:
-            Fully populated Job model
-        """
+        """Enrich job model with full description, requirements, and screening questions."""
         pass
