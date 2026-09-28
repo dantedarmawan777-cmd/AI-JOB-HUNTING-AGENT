@@ -934,3 +934,159 @@ telegram.error.Conflict: Conflict: terminated by other getUpdates request; make 
 2026-09-28 19:38:05 | INFO     | src.scrapers.glints:56 - [Glints] Searching for 'Commercial Banking Relationship Manager' in 'Indonesia'
 2026-09-28 19:38:05 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
 2026-09-28 19:38:06 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Commercial%20Banking%20Relationship%20Manager&country=ID (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Commercial%20Banking%20Relationship%20Manager&country=ID'
+2026-09-28 19:38:06 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Commercial+Banking+Relationship+Manager&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:38:06 | ERROR    | src.scrapers.base:132 - [Kalibrr] Exhausted all 3 retries for https://www.kalibrr.com/api/job_board/search
+2026-09-28 19:38:06 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:38:07 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/commercial-banking-relationship-manager/co/Indonesia (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/commercial-banking-relationship-manager/co/Indonesia'
+2026-09-28 19:38:08 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Commercial%20Banking%20Relationship%20Manager&country=ID (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Commercial%20Banking%20Relationship%20Manager&country=ID'
+2026-09-28 19:38:10 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/commercial-banking-relationship-manager/co/Indonesia (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/commercial-banking-relationship-manager/co/Indonesia'
+2026-09-28 19:38:10 | ERROR    | telegram.ext.Updater:371 - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 680, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 4767, in get_updates
+    await self._post(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-09-28 19:38:13 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Commercial%20Banking%20Relationship%20Manager&country=ID (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Commercial%20Banking%20Relationship%20Manager&country=ID'
+2026-09-28 19:38:13 | ERROR    | src.scrapers.base:132 - [Glints] Exhausted all 3 retries for https://glints.com/id/opportunities/jobs/explore?keyword=Commercial%20Banking%20Relationship%20Manager&country=ID
+2026-09-28 19:38:13 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:38:14 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Commercial+Banking+Relationship+Manager&country=ID&cityName=&limit=15&page=1'
+2026-09-28 19:38:15 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/commercial-banking-relationship-manager/co/Indonesia (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/commercial-banking-relationship-manager/co/Indonesia'
+2026-09-28 19:38:15 | ERROR    | src.scrapers.base:132 - [Kalibrr] Exhausted all 3 retries for https://www.kalibrr.com/job-board/te/commercial-banking-relationship-manager/co/Indonesia
+2026-09-28 19:38:15 | INFO     | src.scrapers.kalibrr:44 - [Kalibrr] Searching for 'Commercial Banking Relationship Manager' in 'Indonesia'
+2026-09-28 19:38:15 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:38:15 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Commercial+Banking+Relationship+Manager&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:38:16 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Commercial+Banking+Relationship+Manager&country=ID&cityName=&limit=15&page=1'
+2026-09-28 19:38:18 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Commercial+Banking+Relationship+Manager&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:38:21 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Commercial+Banking+Relationship+Manager&country=ID&cityName=&limit=15&page=1'
+2026-09-28 19:38:21 | ERROR    | src.scrapers.base:132 - [Glints] Exhausted all 3 retries for https://glints.com/api/job-posts
+2026-09-28 19:38:21 | INFO     | src.scrapers.glints:56 - [Glints] Searching for 'Commercial Banking Relationship Manager' in 'Remote'
+2026-09-28 19:38:21 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:38:22 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Commercial%20Banking%20Relationship%20Manager&country=ID (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Commercial%20Banking%20Relationship%20Manager&country=ID'
+2026-09-28 19:38:23 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Commercial+Banking+Relationship+Manager&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:38:23 | ERROR    | src.scrapers.base:132 - [Kalibrr] Exhausted all 3 retries for https://www.kalibrr.com/api/job_board/search
+2026-09-28 19:38:23 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:38:24 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/commercial-banking-relationship-manager/co/Indonesia (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/commercial-banking-relationship-manager/co/Indonesia'
+2026-09-28 19:38:24 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Commercial%20Banking%20Relationship%20Manager&country=ID (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Commercial%20Banking%20Relationship%20Manager&country=ID'
+2026-09-28 19:38:27 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/commercial-banking-relationship-manager/co/Indonesia (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/commercial-banking-relationship-manager/co/Indonesia'
+2026-09-28 19:38:28 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Commercial%20Banking%20Relationship%20Manager&country=ID (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Commercial%20Banking%20Relationship%20Manager&country=ID'
+2026-09-28 19:38:28 | ERROR    | src.scrapers.base:132 - [Glints] Exhausted all 3 retries for https://glints.com/id/opportunities/jobs/explore?keyword=Commercial%20Banking%20Relationship%20Manager&country=ID
+2026-09-28 19:38:28 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:38:29 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Commercial+Banking+Relationship+Manager&country=ID&cityName=Remote&limit=15&page=1'
+2026-09-28 19:38:32 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/commercial-banking-relationship-manager/co/Indonesia (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/commercial-banking-relationship-manager/co/Indonesia'
+2026-09-28 19:38:32 | ERROR    | src.scrapers.base:132 - [Kalibrr] Exhausted all 3 retries for https://www.kalibrr.com/job-board/te/commercial-banking-relationship-manager/co/Indonesia
+2026-09-28 19:38:32 | INFO     | src.scrapers.kalibrr:44 - [Kalibrr] Searching for 'Commercial Banking Relationship Manager' in 'Remote'
+2026-09-28 19:38:32 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:38:32 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Commercial+Banking+Relationship+Manager&country=ID&cityName=Remote&limit=15&page=1'
+2026-09-28 19:38:32 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Commercial+Banking+Relationship+Manager&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:38:35 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Commercial+Banking+Relationship+Manager&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:38:37 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Commercial+Banking+Relationship+Manager&country=ID&cityName=Remote&limit=15&page=1'
+2026-09-28 19:38:37 | ERROR    | src.scrapers.base:132 - [Glints] Exhausted all 3 retries for https://glints.com/api/job-posts
+2026-09-28 19:38:37 | INFO     | src.scrapers.glints:56 - [Glints] Searching for 'SME Lending Specialist' in 'Jakarta'
+2026-09-28 19:38:37 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:38:37 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=SME%20Lending%20Specialist&country=ID (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=SME%20Lending%20Specialist&country=ID'
+2026-09-28 19:38:39 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Commercial+Banking+Relationship+Manager&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:38:39 | ERROR    | src.scrapers.base:132 - [Kalibrr] Exhausted all 3 retries for https://www.kalibrr.com/api/job_board/search
+2026-09-28 19:38:39 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:38:40 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=SME%20Lending%20Specialist&country=ID (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=SME%20Lending%20Specialist&country=ID'
+2026-09-28 19:38:40 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/commercial-banking-relationship-manager/co/Indonesia (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/commercial-banking-relationship-manager/co/Indonesia'
+2026-09-28 19:38:43 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/commercial-banking-relationship-manager/co/Indonesia (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/commercial-banking-relationship-manager/co/Indonesia'
+2026-09-28 19:38:44 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=SME%20Lending%20Specialist&country=ID (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=SME%20Lending%20Specialist&country=ID'
+2026-09-28 19:38:44 | ERROR    | src.scrapers.base:132 - [Glints] Exhausted all 3 retries for https://glints.com/id/opportunities/jobs/explore?keyword=SME%20Lending%20Specialist&country=ID
+2026-09-28 19:38:44 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:38:45 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=SME+Lending+Specialist&country=ID&cityName=Jakarta&limit=15&page=1'
+2026-09-28 19:38:45 | ERROR    | telegram.ext.Updater:371 - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 680, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 4767, in get_updates
+    await self._post(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-09-28 19:38:48 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=SME+Lending+Specialist&country=ID&cityName=Jakarta&limit=15&page=1'
+2026-09-28 19:38:48 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/commercial-banking-relationship-manager/co/Indonesia (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/commercial-banking-relationship-manager/co/Indonesia'
+2026-09-28 19:38:48 | ERROR    | src.scrapers.base:132 - [Kalibrr] Exhausted all 3 retries for https://www.kalibrr.com/job-board/te/commercial-banking-relationship-manager/co/Indonesia
+2026-09-28 19:38:48 | INFO     | src.scrapers.kalibrr:44 - [Kalibrr] Searching for 'SME Lending Specialist' in 'Jakarta'
+2026-09-28 19:38:48 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:38:48 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=SME+Lending+Specialist&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:38:51 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=SME+Lending+Specialist&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:38:52 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=SME+Lending+Specialist&country=ID&cityName=Jakarta&limit=15&page=1'
+2026-09-28 19:38:52 | ERROR    | src.scrapers.base:132 - [Glints] Exhausted all 3 retries for https://glints.com/api/job-posts
+2026-09-28 19:38:52 | INFO     | src.scrapers.glints:56 - [Glints] Searching for 'SME Lending Specialist' in 'Tarakan'
+2026-09-28 19:38:52 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:38:53 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=SME%20Lending%20Specialist&country=ID (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=SME%20Lending%20Specialist&country=ID'
+2026-09-28 19:38:55 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=SME+Lending+Specialist&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:38:55 | ERROR    | src.scrapers.base:132 - [Kalibrr] Exhausted all 3 retries for https://www.kalibrr.com/api/job_board/search
+2026-09-28 19:38:55 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:38:55 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=SME%20Lending%20Specialist&country=ID (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=SME%20Lending%20Specialist&country=ID'
+2026-09-28 19:38:56 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/sme-lending-specialist/co/Indonesia (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/sme-lending-specialist/co/Indonesia'
+2026-09-28 19:38:59 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/sme-lending-specialist/co/Indonesia (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/sme-lending-specialist/co/Indonesia'
+2026-09-28 19:39:00 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=SME%20Lending%20Specialist&country=ID (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=SME%20Lending%20Specialist&country=ID'
+2026-09-28 19:39:00 | ERROR    | src.scrapers.base:132 - [Glints] Exhausted all 3 retries for https://glints.com/id/opportunities/jobs/explore?keyword=SME%20Lending%20Specialist&country=ID
+2026-09-28 19:39:00 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:39:00 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=SME+Lending+Specialist&country=ID&cityName=Tarakan&limit=15&page=1'
+2026-09-28 19:39:03 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=SME+Lending+Specialist&country=ID&cityName=Tarakan&limit=15&page=1'
+2026-09-28 19:39:04 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/sme-lending-specialist/co/Indonesia (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/sme-lending-specialist/co/Indonesia'
+2026-09-28 19:39:04 | ERROR    | src.scrapers.base:132 - [Kalibrr] Exhausted all 3 retries for https://www.kalibrr.com/job-board/te/sme-lending-specialist/co/Indonesia
+2026-09-28 19:39:04 | INFO     | src.scrapers.kalibrr:44 - [Kalibrr] Searching for 'SME Lending Specialist' in 'Tarakan'
+2026-09-28 19:39:04 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:39:04 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=SME+Lending+Specialist&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:39:07 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=SME+Lending+Specialist&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:39:08 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=SME+Lending+Specialist&country=ID&cityName=Tarakan&limit=15&page=1'
+2026-09-28 19:39:08 | ERROR    | src.scrapers.base:132 - [Glints] Exhausted all 3 retries for https://glints.com/api/job-posts
+2026-09-28 19:39:08 | INFO     | src.scrapers.glints:56 - [Glints] Searching for 'SME Lending Specialist' in 'Indonesia'
+2026-09-28 19:39:08 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:39:08 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=SME%20Lending%20Specialist&country=ID (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=SME%20Lending%20Specialist&country=ID'
+2026-09-28 19:39:11 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=SME%20Lending%20Specialist&country=ID (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=SME%20Lending%20Specialist&country=ID'
+2026-09-28 19:39:11 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=SME+Lending+Specialist&countries=Indonesia&limit=15&offset=0'
+2026-09-28 19:39:11 | ERROR    | src.scrapers.base:132 - [Kalibrr] Exhausted all 3 retries for https://www.kalibrr.com/api/job_board/search
+2026-09-28 19:39:11 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:39:12 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/sme-lending-specialist/co/Indonesia (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/sme-lending-specialist/co/Indonesia'
+2026-09-28 19:39:15 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/sme-lending-specialist/co/Indonesia (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/sme-lending-specialist/co/Indonesia'
+2026-09-28 19:39:15 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=SME%20Lending%20Specialist&country=ID (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=SME%20Lending%20Specialist&country=ID'
+2026-09-28 19:39:15 | ERROR    | src.scrapers.base:132 - [Glints] Exhausted all 3 retries for https://glints.com/id/opportunities/jobs/explore?keyword=SME%20Lending%20Specialist&country=ID
+2026-09-28 19:39:15 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 19:39:16 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=SME+Lending+Specialist&country=ID&cityName=&limit=15&page=1'
