@@ -78,26 +78,37 @@ class TelegramHitlBot:
             logger.warning("Telegram Bot cannot start: No token provided.")
             return
 
-        self._app = self.build_application()
-        if not self._app:
-            return
+        try:
+            self._app = self.build_application()
+            if not self._app:
+                return
 
-        logger.info("Starting Telegram HITL Bot polling...")
-        await self._app.initialize()
-        await self._app.start()
-        await self._app.updater.start_polling(drop_pending_updates=True)
-        self._is_running = True
+            logger.info("Starting Telegram HITL Bot polling...")
+            await self._app.initialize()
+            await self._app.start()
+            await self._app.updater.start_polling(drop_pending_updates=True)
+            self._is_running = True
+            logger.info("Telegram HITL Bot successfully polling.")
+        except Exception as e:
+            logger.error("Error starting Telegram bot (will keep Web Dashboard active): %s", e)
+            self._is_running = False
 
     async def stop(self) -> None:
         """Gracefully shutdown Telegram bot."""
         if self._app and self._is_running:
-            logger.info("Stopping Telegram HITL Bot...")
-            await self._app.updater.stop()
-            await self._app.stop()
-            await self._app.shutdown()
-            self._is_running = False
+            try:
+                logger.info("Stopping Telegram HITL Bot...")
+                if self._app.updater and self._app.updater.running:
+                    await self._app.updater.stop()
+                await self._app.stop()
+                await self._app.shutdown()
+            except Exception as e:
+                logger.warning("Error stopping Telegram bot: %s", e)
+            finally:
+                self._is_running = False
 
     async def send_job_alert(self, job: Job, target_chat_id: Optional[str | int] = None) -> bool:
+
         """
         Send a job opportunity card with inline approval/rejection buttons to Telegram.
         """
