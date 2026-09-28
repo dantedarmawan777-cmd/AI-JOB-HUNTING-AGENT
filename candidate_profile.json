@@ -1,0 +1,122 @@
+{
+  "full_name": "Aditya Darmawan",
+  "title": "Senior Credit Risk & Underwriting Specialist",
+  "email": "dantedarmawan@yahoo.com",
+  "phone": "+62 811-599-4948",
+  "linkedin": "https://www.linkedin.com/in/aditya-darmawan-641218b1/",
+  "locations": ["Jakarta", "Balikpapan", "Tarakan"],
+  "work_flexibility": ["On-site", "Hybrid", "Remote"],
+  "total_years_experience": 15,
+  "summary": "Senior Credit Risk and Underwriting Specialist with over 15 years of cumulative experience across institutional commercial banking and regional Southeast Asian FinTech lending. Deep expertise in SME and commercial credit underwriting, financial statement analysis, debt capacity modeling (DSCR), and digital risk scorecard calibration. Proven track record in structuring complex borrowing facilities, conducting rigorous field due diligence, managing covenant compliance, and maintaining low portfolio default rates across Maybank, CIMB Niaga, Bank Mega, and Aspire SEA.",
+  "core_competencies": [
+    "Credit Risk Underwriting & Facility Sizing (SME, Commercial & Digital Lending)",
+    "Working Capital Financing & Cash-Flow Lending Analysis",
+    "Financial Statement Spreading, Ratio Analysis & Debt Service Modeling (DSCR)",
+    "Digital Risk Scoring & Credit Policy Parameter Formulation",
+    "Delinquency Mitigation, NPL Prevention & Early Warning Systems",
+    "Borrower Due Diligence, Collateral Perfection & Legal Binding",
+    "Cross-Functional Product Collaboration & Automated Decisioning Logic",
+    "Commercial Client Relationship Management & Stakeholder Relations"
+  ],
+  "experience": [
+    {
+      "company": "Aspire SEA",
+      "position": "Credit Analyst (Business Loan & Advance Card)",
+      "period": "Jul 2019 – Jun 2025",
+      "duration_years": 6,
+      "location": "Jakarta / Regional (Southeast Asia)",
+      "highlights": [
+        "Underwrote SME credit applications across business term loans, advance lines, and corporate credit cards for Southeast Asian digital businesses and high-growth enterprises.",
+        "Evaluated high-velocity credit requests using combined inputs: digital bank statement parsing, alternative data streams, e-commerce cash-flows, and conventional audited financial statements.",
+        "Formulated and adjusted internal underwriting scorecards, balancing approval throughput with low default thresholds during macroeconomic volatility.",
+        "Monitored portfolio-level credit exposure, identifying early warning indicators of distress and recommending proactive credit limit adjustments.",
+        "Collaborated directly with regional product and engineering teams to refine automated risk decisioning engines, eliminating manual verification bottlenecks without compromising credit rigors."
+      ]
+    },
+    {
+      "company": "PT Bangga Teknologi Indonesia (ADVAN)",
+      "position": "Supervisor Area (North Kalimantan)",
+      "period": "Oct 2018 – Feb 2019",
+      "duration_years": 0.5,
+      "location": "North Kalimantan, Indonesia",
+      "highlights": [
+        "Supervised regional distribution networks, retail channel partners, and field sales promoter teams across North Kalimantan.",
+        "Audited dealer credit terms, structured working capital collection cadences, and minimized regional overdue receivables.",
+        "Standardized weekly operational inventory tracking between central distribution hubs and retail partner outlets."
+      ]
+    },
+    {
+      "company": "Warung Vape",
+      "position": "Operations & Retail Business Manager",
+      "period": "Mar 2017 – Aug 2018",
+      "duration_years": 1.5,
+      "location": "Tarakan, Indonesia",
+      "highlights": [
+        "Managed end-to-end commercial operations, retail inventory logistics, and working capital cash cycles for an independent retail enterprise.",
+        "Negotiated direct supplier purchasing contracts, managed retail pricing margins, and maintained disciplined financial accounting."
+      ]
+    },
+    {
+      "company": "PT Bank Maybank Indonesia, Tbk",
+      "position": "Relationship Manager (SME & Commercial Banking)",
+      "period": "Jul 2012 – Jan 2017",
+      "duration_years": 4.5,
+      "location": "Tarakan, Indonesia",
+      "highlights": [
+        "Managed and expanded an active SME and commercial banking loan portfolio comprising manufacturing, trade, services, and local distribution sectors.",
+        "Evaluated, underwrote, and structured complex credit proposals including working capital facilities, letters of credit, and investment financing.",
+        "Conducted comprehensive on-site borrower due diligence, collateral appraisals, verification of tax filings, and audited financial statements.",
+        "Maintained impeccable portfolio quality through rigorous covenant tracking, early default warnings, and annual facility reviews.",
+        "Honors: Awarded Best Sales Person RO SME UpCountry (2014) for exceptional credit quality, portfolio growth, and compliance performance."
+      ]
+    },
+    {
+      "company": "PT Bank CIMB Niaga, Tbk",
+      "position": "Account Officer",
+      "period": "Oct 2010 – Jul 2012",
+      "duration_years": 1.8,
+      "location": "Tarakan, Indonesia",
+      "highlights": [
+        "Originated, structured, and recommended credit approvals for commercial and SME clients.",
+        "Performed detailed historical financial statement analysis, projected debt service coverage ratios (DSCR), and evaluated collateral sufficiency.",
+        "Prepared comprehensive Credit Memorandum packages presented directly to regional credit approval committees.",
+        "Coordinated loan documentation, legal perfection of collateral, and drawdown compliance conditions."
+      ]
+    },
+    {
+      "company": "PT Bank Mega, Tbk",
+      "position": "Account Officer",
+      "period": "Dec 2009 – Jul 2010",
+      "duration_years": 0.6,
+      "location": "Tarakan, Indonesia",
+      "highlights": [
+        "Initiated business client assessments, credit documentation checks, and field investigations for commercial borrowers.",
+        "Executed financial spreading, cash flow verifications, and trade reference checks to establish creditworthiness.",
+        "Assisted senior credit heads in monitoring borrower covenant compliance and payment collections."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Forestry (S.Hut)",
+      "institution": "Universitas Mulawarman, Samarinda, Indonesia",
+      "period": "2005 – 2009",
+      "gpa": "3.48 / 4.00"
+    }
+  ],
+  "certifications": [
+    "Work Excellence Program, Daya Dimensi Indonesia (DDI), 2013",
+    "Effective Communication Program, Business First, 2013"
+  ],
+  "cv_files": {
+    "EN": "C:\\Users\\user\\Desktop\\Aditya_Darmawan_CV_Career_EN.pdf",
+    "ID": "C:\\Users\\user\\Desktop\\Aditya_Darmawan_CV_Career_ID.pdf"
+  },
+  "salary_expectation": {
+    "currency": "IDR",
+    "expected_min": 25000000,
+    "expected_target": 35000000,
+    "negotiable": true
+  },
+  "notice_period": "Immediately available / 1 month standard"
+}
