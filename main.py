@@ -20,6 +20,7 @@ from config import config
 from src.core.database import db
 from src.core.logger import get_logger
 from src.core.models import ApplicationStatus
+from src.dashboard.server import run_dashboard_server
 from src.execution.auto_fill import auto_fill_engine
 from src.execution.playwright_worker import playwright_worker
 from src.scrapers.manager import scraper_manager
@@ -76,8 +77,13 @@ async def display_stats() -> None:
 
 
 async def run_daemon(poll_interval_hours: int = 4) -> None:
-    """Run full automation daemon with Telegram HITL and periodic scraping."""
-    logger.info("Starting Job Hunting Automation Daemon...")
+    """Run full automation daemon with Web Dashboard, Telegram HITL, and periodic scraping."""
+    logger.info("Starting Job Hunting Automation Daemon & Web Dashboard...")
+
+    # 1. Start Web Dashboard HTTP Server (for Railway Public Networking)
+    dashboard_runner = await run_dashboard_server(host=config.host, port=config.port)
+
+    # 2. Start Telegram HITL Bot
     await telegram_bot.start()
 
     try:
@@ -95,6 +101,8 @@ async def run_daemon(poll_interval_hours: int = 4) -> None:
         await telegram_bot.stop()
         await scraper_manager.close()
         await playwright_worker.close()
+        if dashboard_runner:
+            await dashboard_runner.cleanup()
 
 
 def main() -> None:
