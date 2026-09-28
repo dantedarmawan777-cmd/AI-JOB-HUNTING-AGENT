@@ -21,7 +21,7 @@ CURATED_TARGET_JOBS = [
         "salary_min": 30000000.0,
         "salary_max": 42000000.0,
         "salary_currency": "IDR",
-        "url": "https://id.linkedin.com/jobs/view/senior-credit-risk-manager-bank-mandiri-4468491001",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=Senior+Credit+Risk+Manager+Bank+Mandiri&location=Indonesia",
         "work_type": "Hybrid",
         "description": """Job Description:
 - Lead the SME & Commercial Banking Credit Risk evaluation, credit assessment, and portfolio monitoring.
@@ -45,7 +45,7 @@ Requirements:
         "salary_min": 35000000.0,
         "salary_max": 50000000.0,
         "salary_currency": "IDR",
-        "url": "https://id.linkedin.com/jobs/view/head-of-credit-underwriting-aspire-4468491002",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=Credit+Underwriting+Aspire&location=Indonesia",
         "work_type": "Remote / Hybrid",
         "description": """Job Description:
 - Oversee regional credit underwriting operations for SME working capital, corporate cards, and invoice financing.
@@ -68,7 +68,7 @@ Requirements:
         "salary_min": 28000000.0,
         "salary_max": 38000000.0,
         "salary_currency": "IDR",
-        "url": "https://id.linkedin.com/jobs/view/secured-loan-department-head-credit-control-services-operations-seabank-at-seabank-indonesia-4467391735",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=Secured+Loan+Department+Head+SeaBank&location=Indonesia",
         "work_type": "Full-time",
         "description": """Job Description:
 - Lead the Secured Loan Underwriting and Credit Operations division at SeaBank Indonesia.
@@ -90,7 +90,7 @@ Requirements:
         "salary_min": 27000000.0,
         "salary_max": 36000000.0,
         "salary_currency": "IDR",
-        "url": "https://id.jobstreet.com/id/job/commercial-credit-risk-specialist-danamon-4468491004",
+        "url": "https://id.jobstreet.com/id/job-search/credit-risk-specialist-jobs/in-indonesia/",
         "work_type": "Full-time",
         "description": """Job Description:
 - Conduct comprehensive risk assessments on commercial banking credit proposals (ticket size IDR 10B - 50B).
@@ -112,7 +112,7 @@ Requirements:
         "salary_min": 32000000.0,
         "salary_max": 45000000.0,
         "salary_currency": "IDR",
-        "url": "https://id.linkedin.com/jobs/view/credit-risk-anti-fraud-manager-bnpl-personal-loan-jakarta-global-payment-at-bytedance-4465733367",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=Credit+Risk+Manager+ByteDance&location=Indonesia",
         "work_type": "Full-time",
         "description": """Job Description:
 - Manage credit risk policies and anti-fraud mechanisms for digital payment and lending products (BNPL, Installments).
@@ -134,7 +134,7 @@ Requirements:
         "salary_min": 28000000.0,
         "salary_max": 38000000.0,
         "salary_currency": "IDR",
-        "url": "https://glints.com/id/opportunities/jobs/head-of-credit-risk-amartha-4468491006",
+        "url": "https://glints.com/id/opportunities/jobs/explore?keyword=Credit+Risk+Manager&country=ID",
         "work_type": "Hybrid",
         "description": """Job Description:
 - Direct credit risk strategy, underwriting standards, and loan portfolio management for MSME financing across Indonesia.
