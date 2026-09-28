@@ -33,23 +33,23 @@ class KalibrrScraper(BaseScraper):
         self,
         keywords: List[str],
         locations: List[str],
-        limit_per_keyword: int = 15,
+        limit_per_keyword: int = 10,
     ) -> List[Job]:
         """Search Kalibrr across specified keywords and locations."""
         all_jobs: List[Job] = []
         seen_urls: set[str] = set()
 
-        for kw in keywords:
-            for loc in locations:
-                logger.info("[%s] Searching for '%s' in '%s'", self.name, kw, loc)
-                jobs = await self._search_combo(kw, loc, limit_per_keyword)
-                for j in jobs:
-                    if j.url not in seen_urls:
-                        seen_urls.add(j.url)
-                        all_jobs.append(j)
+        for kw in keywords[:3]:
+            logger.info("[%s] Searching for '%s' in 'Indonesia'", self.name, kw)
+            jobs = await self._search_combo(kw, "Indonesia", limit_per_keyword)
+            for j in jobs:
+                if j.url not in seen_urls:
+                    seen_urls.add(j.url)
+                    all_jobs.append(j)
 
         logger.info("[%s] Found %d total unique jobs", self.name, len(all_jobs))
         return all_jobs
+
 
     async def _search_combo(self, keyword: str, location: str, limit: int) -> List[Job]:
         """Search single keyword / location combo."""
