@@ -45,16 +45,28 @@ class JobStreetScraper(BaseScraper):
         self,
         keywords: List[str],
         locations: List[str],
-        limit_per_keyword: int = 15,
+        limit_per_keyword: int = 10,
     ) -> List[Job]:
-        """Search JobStreet across specified keywords and locations."""
+        """Search JobStreet across specified keywords and locations with fail-fast WAF handling."""
         all_jobs: List[Job] = []
         seen_urls: set[str] = set()
+        consecutive_blocked = 0
 
-        for kw in keywords:
-            for loc in locations:
+        target_locs = [l for l in locations if l.lower() in ("jakarta", "indonesia")][:2] or ["Jakarta"]
+
+        for kw in keywords[:4]:
+            if consecutive_blocked >= 2:
+                logger.warning("[%s] Cloudflare anti-bot active; skipping remaining queries.", self.name)
+                break
+
+            for loc in target_locs:
                 logger.info("[%s] Searching for '%s' in '%s'", self.name, kw, loc)
                 jobs = await self._search_combo(kw, loc, limit_per_keyword)
+                if not jobs:
+                    consecutive_blocked += 1
+                else:
+                    consecutive_blocked = 0
+
                 for j in jobs:
                     if j.url not in seen_urls:
                         seen_urls.add(j.url)
@@ -65,7 +77,12 @@ class JobStreetScraper(BaseScraper):
 
     async def _search_combo(self, keyword: str, location: str, limit: int) -> List[Job]:
         """Search single keyword and location combination."""
-        # 1. Try REST Search API first
+        # 1. Try HTML Search
+        html_jobs = await self._search_html(keyword, location, limit)
+        if html_jobs:
+            return html_jobs
+
+        # 2. Try REST Search API
         api_params = {
             "siteKey": "ID-Main",
             "keywords": keyword,
@@ -80,6 +97,7 @@ class JobStreetScraper(BaseScraper):
             self.API_SEARCH_URL,
             params=api_params,
             is_json=True,
+            retries=1,
         )
 
         if data and isinstance(data, dict) and "data" in data and isinstance(data["data"], list):
@@ -87,8 +105,7 @@ class JobStreetScraper(BaseScraper):
             if jobs:
                 return jobs[:limit]
 
-        # 2. Fallback to HTML Search
-        return await self._search_html(keyword, location, limit)
+        return []
 
     def _parse_api_jobs(self, items: List[Dict[str, Any]]) -> List[Job]:
         """Parse structured API JSON items from SEEK/JobStreet API."""
@@ -154,7 +171,7 @@ class JobStreetScraper(BaseScraper):
         loc_slug = quote(location.lower().replace(" ", "-"))
         url = f"{self.BASE_WEB_URL}/id/job-search/{kw_slug}-jobs/in-{loc_slug}/?sortmode=listeddate"
 
-        html = await self.fetch_url(url, is_json=False)
+        html = await self.fetch_url(url, is_json=False, retries=1)
         if not html:
             return []
 
@@ -225,14 +242,13 @@ class JobStreetScraper(BaseScraper):
         return results
 
     async def fetch_job_details(self, job: Job) -> Job:
-        """Fetch full job advertisement description and screening questions if available."""
-        # Extract JobStreet Job ID from URL (e.g., /id/job/123456)
+        """Fetch full job advertisement description."""
         match = re.search(r"/job/(\d+)", job.url)
         if match:
             job_id = match.group(1)
             api_url = self.API_JOB_URL.format(job_id=job_id)
             params = {"siteKey": "ID-Main"}
-            detail_data = await self.fetch_url(api_url, params=params, is_json=True)
+            detail_data = await self.fetch_url(api_url, params=params, is_json=True, retries=1)
             if detail_data and isinstance(detail_data, dict):
                 job_ad = detail_data.get("jobAd", {}) or detail_data
                 desc_html = job_ad.get("jobAdDetails") or job_ad.get("content", "")
@@ -241,8 +257,7 @@ class JobStreetScraper(BaseScraper):
                     job.description = soup.get_text(separator="\n", strip=True)
                     return job
 
-        # Fallback to HTML details page
-        html = await self.fetch_url(job.url, is_json=False)
+        html = await self.fetch_url(job.url, is_json=False, retries=1)
         if html:
             soup = BeautifulSoup(html, "html.parser")
             desc_elem = soup.select_one('div[data-automation="jobAdDetails"]')
