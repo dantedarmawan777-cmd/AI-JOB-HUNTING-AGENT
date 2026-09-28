@@ -4997,3 +4997,70 @@ connector: <aiohttp.connector.TCPConnector object at 0x000001D6B8CD8C10>
 2026-09-28 20:56:42 | INFO     | copywriter.form_answers:483 - Answered screening question [dd062a1adc]: 'Years of experience in credit risk?' -> '12'
 2026-09-28 20:56:42 | INFO     | matcher.blacklist:343 - Blacklisted job [Fresh Graduate Admin Kredit @ PT Pinjol Ilegal]: Employer matched blacklisted predatory lending entity: 'PT Pinjol Ilegal'
 2026-09-28 20:56:42 | INFO     | matcher.engine:369 - Job SHORTLISTED [Score: 100]: Head of Credit Policy & Underwriting @ SEA Digital Bank
+2026-09-28 20:57:47 | INFO     | src.matcher.profile_loader:40 - Loaded candidate profile for: Aditya Darmawan (Senior Credit Risk & Underwriting Specialist)
+2026-09-28 20:57:47 | INFO     | src.scrapers.linkedin:56 - [LinkedIn] Searching for 'Credit Risk' in 'Indonesia'
+2026-09-28 20:57:49 | INFO     | src.scrapers.linkedin:56 - [LinkedIn] Searching for 'Underwriting' in 'Indonesia'
+2026-09-28 20:57:51 | INFO     | src.scrapers.linkedin:64 - [LinkedIn] Found 10 total unique jobs
+2026-09-28 20:58:08 | INFO     | src.matcher.profile_loader:40 - Loaded candidate profile for: Aditya Darmawan (Senior Credit Risk & Underwriting Specialist)
+2026-09-28 20:58:16 | INFO     | src.matcher.profile_loader:40 - Loaded candidate profile for: Aditya Darmawan (Senior Credit Risk & Underwriting Specialist)
+2026-09-28 20:58:25 | INFO     | src.matcher.profile_loader:40 - Loaded candidate profile for: Aditya Darmawan (Senior Credit Risk & Underwriting Specialist)
+2026-09-28 20:58:25 | INFO     | src.scrapers.manager:69 - Starting multi-platform scraper run. Keywords: 8, Locations: 4, Threshold: 75
+2026-09-28 20:58:25 | INFO     | src.scrapers.linkedin:56 - [LinkedIn] Searching for 'Credit Risk Manager' in 'Indonesia'
+2026-09-28 20:58:25 | INFO     | src.scrapers.kalibrr:43 - [Kalibrr] Searching for 'Credit Risk Manager' in 'Indonesia'
+2026-09-28 20:58:25 | INFO     | src.scrapers.glints:62 - [Glints] Searching for 'Credit Risk Manager' in 'Jakarta'
+2026-09-28 20:58:25 | INFO     | src.scrapers.jobstreet:63 - [JobStreet] Searching for 'Credit Risk Manager' in 'Jakarta'
+2026-09-28 20:58:25 | WARNING  | src.scrapers.base:135 - [Glints] Request to https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Manager&country=ID returned HTTP 403
+2026-09-28 20:58:26 | WARNING  | src.scrapers.base:122 - [JobStreet] Rate limited (429) on https://id.jobstreet.com/id/job-search/credit-risk-manager-jobs/in-jakarta/?sortmode=listeddate. Backing off for 1.5s (attempt 1/1)
+2026-09-28 20:58:26 | INFO     | src.scrapers.kalibrr:43 - [Kalibrr] Searching for 'Credit Risk Analyst' in 'Indonesia'
+2026-09-28 20:58:26 | INFO     | src.scrapers.kalibrr:43 - [Kalibrr] Searching for 'Head of Underwriting' in 'Indonesia'
+2026-09-28 20:58:26 | INFO     | src.scrapers.kalibrr:50 - [Kalibrr] Found 3 total unique jobs
+2026-09-28 20:58:26 | WARNING  | src.scrapers.base:135 - [Glints] Request to https://glints.com/api/job-posts returned HTTP 403
+2026-09-28 20:58:26 | INFO     | src.scrapers.glints:62 - [Glints] Searching for 'Credit Risk Manager' in 'Indonesia'
+2026-09-28 20:58:27 | INFO     | src.scrapers.linkedin:56 - [LinkedIn] Searching for 'Credit Risk Analyst' in 'Indonesia'
+2026-09-28 20:58:27 | WARNING  | src.scrapers.base:135 - [Glints] Request to https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Manager&country=ID returned HTTP 403
+2026-09-28 20:58:27 | ERROR    | src.scrapers.base:150 - [JobStreet] Exhausted all 1 retries for https://id.jobstreet.com/id/job-search/credit-risk-manager-jobs/in-jakarta/?sortmode=listeddate
+2026-09-28 20:58:27 | WARNING  | src.scrapers.base:135 - [Glints] Request to https://glints.com/api/job-posts returned HTTP 403
+2026-09-28 20:58:27 | WARNING  | src.scrapers.glints:58 - [Glints] Cloudflare anti-bot active; skipping remaining queries.
+2026-09-28 20:58:27 | INFO     | src.scrapers.glints:74 - [Glints] Found 0 total unique jobs
+2026-09-28 20:58:28 | WARNING  | src.scrapers.base:135 - [JobStreet] Request to https://id.jobstreet.com/api/chalice-search/v4/search returned HTTP 404
+2026-09-28 20:58:28 | INFO     | src.scrapers.jobstreet:63 - [JobStreet] Searching for 'Credit Risk Manager' in 'Indonesia'
+2026-09-28 20:58:28 | WARNING  | src.scrapers.base:122 - [JobStreet] Rate limited (429) on https://id.jobstreet.com/id/job-search/credit-risk-manager-jobs/in-indonesia/?sortmode=listeddate. Backing off for 1.5s (attempt 1/1)
+2026-09-28 20:58:28 | INFO     | src.scrapers.linkedin:56 - [LinkedIn] Searching for 'Head of Underwriting' in 'Indonesia'
+2026-09-28 20:58:29 | ERROR    | src.scrapers.base:150 - [JobStreet] Exhausted all 1 retries for https://id.jobstreet.com/id/job-search/credit-risk-manager-jobs/in-indonesia/?sortmode=listeddate
+2026-09-28 20:58:30 | INFO     | src.scrapers.linkedin:64 - [LinkedIn] Found 9 total unique jobs
+2026-09-28 20:58:30 | WARNING  | src.scrapers.base:135 - [JobStreet] Request to https://id.jobstreet.com/api/chalice-search/v4/search returned HTTP 404
+2026-09-28 20:58:30 | WARNING  | src.scrapers.jobstreet:59 - [JobStreet] Cloudflare anti-bot active; skipping remaining queries.
+2026-09-28 20:58:30 | INFO     | src.scrapers.jobstreet:75 - [JobStreet] Found 0 total unique jobs
+2026-09-28 20:58:30 | INFO     | src.scrapers.manager:87 - Scraper [LinkedIn] returned 9 job postings
+2026-09-28 20:58:30 | INFO     | src.scrapers.manager:87 - Scraper [Kalibrr] returned 3 job postings
+2026-09-28 20:58:30 | INFO     | src.scrapers.manager:87 - Scraper [Glints] returned 0 job postings
+2026-09-28 20:58:30 | INFO     | src.scrapers.manager:87 - Scraper [JobStreet] returned 0 job postings
+2026-09-28 20:58:30 | INFO     | src.scrapers.manager:145 - Scraper cycle completed. Total newly scraped: 12, Newly Shortlisted: 0
+2026-09-28 20:58:48 | INFO     | src.matcher.profile_loader:40 - Loaded candidate profile for: Aditya Darmawan (Senior Credit Risk & Underwriting Specialist)
+2026-09-28 20:59:27 | INFO     | src.matcher.profile_loader:40 - Loaded candidate profile for: Aditya Darmawan (Senior Credit Risk & Underwriting Specialist)
+2026-09-28 20:59:27 | INFO     | src.scrapers.linkedin:56 - [LinkedIn] Searching for 'Credit Risk' in 'Indonesia'
+2026-09-28 20:59:29 | INFO     | src.scrapers.linkedin:56 - [LinkedIn] Searching for 'Credit Underwriting' in 'Indonesia'
+2026-09-28 20:59:31 | INFO     | src.scrapers.linkedin:56 - [LinkedIn] Searching for 'Risk Manager' in 'Indonesia'
+2026-09-28 20:59:33 | INFO     | src.scrapers.linkedin:64 - [LinkedIn] Found 11 total unique jobs
+2026-09-28 20:59:39 | WARNING  | src.scrapers.base:122 - [LinkedIn] Rate limited (429) on https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4465733367. Backing off for 1.5s (attempt 1/3)
+2026-09-28 20:59:49 | INFO     | src.matcher.profile_loader:40 - Loaded candidate profile for: Aditya Darmawan (Senior Credit Risk & Underwriting Specialist)
+2026-09-28 20:59:49 | INFO     | src.scrapers.linkedin:56 - [LinkedIn] Searching for 'Credit Risk' in 'Indonesia'
+2026-09-28 20:59:53 | INFO     | src.scrapers.linkedin:56 - [LinkedIn] Searching for 'Credit Underwriting' in 'Indonesia'
+2026-09-28 20:59:54 | INFO     | src.scrapers.linkedin:56 - [LinkedIn] Searching for 'Risk Manager' in 'Indonesia'
+2026-09-28 20:59:56 | INFO     | src.scrapers.linkedin:64 - [LinkedIn] Found 11 total unique jobs
+2026-09-28 21:00:01 | WARNING  | src.scrapers.base:122 - [LinkedIn] Rate limited (429) on https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4377803560. Backing off for 1.5s (attempt 1/3)
+2026-09-28 21:00:04 | WARNING  | src.scrapers.base:122 - [LinkedIn] Rate limited (429) on https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4377803560. Backing off for 3.0s (attempt 2/3)
+2026-09-28 21:00:53 | INFO     | src.matcher.profile_loader:40 - Loaded candidate profile for: Aditya Darmawan (Senior Credit Risk & Underwriting Specialist)
+2026-09-28 21:00:54 | INFO     | matcher.blacklist:354 - Blacklisted job [Telemarketing Kredit @ PT Sales Indo]: Junior/Entry-level role title detected: 'Telemarketing'
+2026-09-28 21:00:54 | INFO     | test_module:26 - Test log info message
+2026-09-28 21:00:55 | INFO     | src.core.database:308 - Job gli_da836be44f52 status updated: shortlisted -> approved
+2026-09-28 21:00:56 | INFO     | aiohttp.access:229 - 127.0.0.1 [28/Sep/2026:21:00:56 +0800] "GET / HTTP/1.1" 200 25353 "-" "Python/3.11 aiohttp/3.14.3"
+2026-09-28 21:00:56 | INFO     | aiohttp.access:229 - 127.0.0.1 [28/Sep/2026:21:00:56 +0800] "GET /api/stats HTTP/1.1" 200 341 "-" "Python/3.11 aiohttp/3.14.3"
+2026-09-28 21:00:56 | INFO     | aiohttp.access:229 - 127.0.0.1 [28/Sep/2026:21:00:56 +0800] "GET /api/jobs HTTP/1.1" 200 214026 "-" "Python/3.11 aiohttp/3.14.3"
+2026-09-28 21:00:56 | INFO     | aiohttp.access:229 - 127.0.0.1 [28/Sep/2026:21:00:56 +0800] "GET /api/profile HTTP/1.1" 200 6572 "-" "Python/3.11 aiohttp/3.14.3"
+2026-09-28 21:00:56 | INFO     | copywriter.form_answers:483 - Answered screening question [d7e8362a66]: 'Expected monthly salary?' -> 'IDR 25,000,000 – IDR 35,000,000 / month (negotiable dependin'
+2026-09-28 21:00:56 | INFO     | copywriter.form_answers:483 - Answered screening question [b3f0c2a701]: 'Notice period?' -> 'Immediately available / 1 month notice standard.'
+2026-09-28 21:00:56 | INFO     | copywriter.form_answers:483 - Answered screening question [a8ff71b83f]: 'Why should we hire you?' -> 'With 15+ years across commercial banking (Maybank, CIMB Niag'
+2026-09-28 21:00:56 | INFO     | copywriter.form_answers:483 - Answered screening question [dd062a1adc]: 'Years of experience in credit risk?' -> '12'
+2026-09-28 21:00:56 | INFO     | matcher.blacklist:343 - Blacklisted job [Fresh Graduate Admin Kredit @ PT Pinjol Ilegal]: Employer matched blacklisted predatory lending entity: 'PT Pinjol Ilegal'
+2026-09-28 21:00:56 | INFO     | matcher.engine:372 - Job SHORTLISTED [Score: 100]: Head of Credit Policy & Underwriting @ SEA Digital Bank
