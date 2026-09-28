@@ -228,6 +228,7 @@ async def run_dashboard_server(host: Optional[str] = None, port: Optional[int] =
     bind_host = host or config.host
     bind_port = port or config.port
 
+    await db.ensure_initial_seeds()
     app = create_dashboard_app()
     runner = web.AppRunner(app)
     await runner.setup()
@@ -235,3 +236,4 @@ async def run_dashboard_server(host: Optional[str] = None, port: Optional[int] =
     await site.start()
     logger.info("Web Dashboard server active on http://%s:%s", bind_host, bind_port)
     return runner
+
