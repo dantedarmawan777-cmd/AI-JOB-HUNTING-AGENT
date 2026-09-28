@@ -4077,3 +4077,702 @@ telegram.error.Conflict: Conflict: terminated by other getUpdates request; make 
 2026-09-28 20:12:57 | INFO     | src.scrapers.kalibrr:44 - [Kalibrr] Searching for 'Risk Assessment Specialist' in 'Remote'
 2026-09-28 20:12:57 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
 2026-09-28 20:12:58 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Risk+Assessment+Specialist&countries=Indonesia&limit=15&offset=0'
+2026-09-28 20:12:59 | ERROR    | telegram.ext.Updater:371 - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 680, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 4767, in get_updates
+    await self._post(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-09-28 20:13:00 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Decisioning&country=ID (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Decisioning&country=ID'
+2026-09-28 20:13:00 | ERROR    | src.scrapers.base:132 - [Glints] Exhausted all 3 retries for https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Decisioning&country=ID
+2026-09-28 20:13:00 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 20:13:00 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Risk+Assessment+Specialist&countries=Indonesia&limit=15&offset=0'
+2026-09-28 20:13:01 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Credit+Decisioning&country=ID&cityName=Jakarta&limit=15&page=1'
+2026-09-28 20:13:03 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Credit+Decisioning&country=ID&cityName=Jakarta&limit=15&page=1'
+2026-09-28 20:13:05 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Risk+Assessment+Specialist&countries=Indonesia&limit=15&offset=0'
+2026-09-28 20:13:05 | ERROR    | src.scrapers.base:132 - [Kalibrr] Exhausted all 3 retries for https://www.kalibrr.com/api/job_board/search
+2026-09-28 20:13:05 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 20:13:06 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/risk-assessment-specialist/co/Indonesia (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/risk-assessment-specialist/co/Indonesia'
+2026-09-28 20:13:08 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Credit+Decisioning&country=ID&cityName=Jakarta&limit=15&page=1'
+2026-09-28 20:13:08 | ERROR    | src.scrapers.base:132 - [Glints] Exhausted all 3 retries for https://glints.com/api/job-posts
+2026-09-28 20:13:08 | INFO     | src.scrapers.glints:56 - [Glints] Searching for 'Credit Decisioning' in 'Tarakan'
+2026-09-28 20:13:08 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 20:13:08 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Decisioning&country=ID (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Decisioning&country=ID'
+2026-09-28 20:13:09 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/risk-assessment-specialist/co/Indonesia (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/risk-assessment-specialist/co/Indonesia'
+2026-09-28 20:13:11 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Decisioning&country=ID (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Decisioning&country=ID'
+2026-09-28 20:13:14 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/risk-assessment-specialist/co/Indonesia (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/risk-assessment-specialist/co/Indonesia'
+2026-09-28 20:13:14 | ERROR    | src.scrapers.base:132 - [Kalibrr] Exhausted all 3 retries for https://www.kalibrr.com/job-board/te/risk-assessment-specialist/co/Indonesia
+2026-09-28 20:13:14 | INFO     | src.scrapers.kalibrr:44 - [Kalibrr] Searching for 'Credit Decisioning' in 'Jakarta'
+2026-09-28 20:13:14 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 20:13:14 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Credit+Decisioning&countries=Indonesia&limit=15&offset=0'
+2026-09-28 20:13:16 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Decisioning&country=ID (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Decisioning&country=ID'
+2026-09-28 20:13:16 | ERROR    | src.scrapers.base:132 - [Glints] Exhausted all 3 retries for https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Decisioning&country=ID
+2026-09-28 20:13:16 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 20:13:17 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Credit+Decisioning&country=ID&cityName=Tarakan&limit=15&page=1'
+2026-09-28 20:13:17 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Credit+Decisioning&countries=Indonesia&limit=15&offset=0'
+2026-09-28 20:13:19 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Credit+Decisioning&country=ID&cityName=Tarakan&limit=15&page=1'
+2026-09-28 20:13:22 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Credit+Decisioning&countries=Indonesia&limit=15&offset=0'
+2026-09-28 20:13:22 | ERROR    | src.scrapers.base:132 - [Kalibrr] Exhausted all 3 retries for https://www.kalibrr.com/api/job_board/search
+2026-09-28 20:13:22 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 20:13:22 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/credit-decisioning/co/Indonesia (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/credit-decisioning/co/Indonesia'
+2026-09-28 20:13:23 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Credit+Decisioning&country=ID&cityName=Tarakan&limit=15&page=1'
+2026-09-28 20:13:23 | ERROR    | src.scrapers.base:132 - [Glints] Exhausted all 3 retries for https://glints.com/api/job-posts
+2026-09-28 20:13:23 | INFO     | src.scrapers.glints:56 - [Glints] Searching for 'Credit Decisioning' in 'Indonesia'
+2026-09-28 20:13:23 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 20:13:24 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Decisioning&country=ID (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Decisioning&country=ID'
+2026-09-28 20:13:25 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/credit-decisioning/co/Indonesia (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/credit-decisioning/co/Indonesia'
+2026-09-28 20:13:27 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Decisioning&country=ID (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Decisioning&country=ID'
+2026-09-28 20:13:30 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/credit-decisioning/co/Indonesia (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/credit-decisioning/co/Indonesia'
+2026-09-28 20:13:30 | ERROR    | src.scrapers.base:132 - [Kalibrr] Exhausted all 3 retries for https://www.kalibrr.com/job-board/te/credit-decisioning/co/Indonesia
+2026-09-28 20:13:30 | INFO     | src.scrapers.kalibrr:44 - [Kalibrr] Searching for 'Credit Decisioning' in 'Tarakan'
+2026-09-28 20:13:30 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 20:13:31 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Credit+Decisioning&countries=Indonesia&limit=15&offset=0'
+2026-09-28 20:13:31 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Decisioning&country=ID (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Decisioning&country=ID'
+2026-09-28 20:13:31 | ERROR    | src.scrapers.base:132 - [Glints] Exhausted all 3 retries for https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Decisioning&country=ID
+2026-09-28 20:13:31 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 20:13:32 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Credit+Decisioning&country=ID&cityName=&limit=15&page=1'
+2026-09-28 20:13:33 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Credit+Decisioning&countries=Indonesia&limit=15&offset=0'
+2026-09-28 20:13:34 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Credit+Decisioning&country=ID&cityName=&limit=15&page=1'
+2026-09-28 20:13:35 | ERROR    | telegram.ext.Updater:371 - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 680, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 4767, in get_updates
+    await self._post(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-09-28 20:13:38 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Credit+Decisioning&countries=Indonesia&limit=15&offset=0'
+2026-09-28 20:13:38 | ERROR    | src.scrapers.base:132 - [Kalibrr] Exhausted all 3 retries for https://www.kalibrr.com/api/job_board/search
+2026-09-28 20:13:38 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 20:13:39 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Credit+Decisioning&country=ID&cityName=&limit=15&page=1'
+2026-09-28 20:13:39 | ERROR    | src.scrapers.base:132 - [Glints] Exhausted all 3 retries for https://glints.com/api/job-posts
+2026-09-28 20:13:39 | INFO     | src.scrapers.glints:56 - [Glints] Searching for 'Credit Decisioning' in 'Remote'
+2026-09-28 20:13:39 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 20:13:39 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/credit-decisioning/co/Indonesia (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/credit-decisioning/co/Indonesia'
+2026-09-28 20:13:39 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Decisioning&country=ID (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Decisioning&country=ID'
+2026-09-28 20:13:41 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/credit-decisioning/co/Indonesia (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/credit-decisioning/co/Indonesia'
+2026-09-28 20:13:42 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Decisioning&country=ID (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Decisioning&country=ID'
+2026-09-28 20:13:46 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/credit-decisioning/co/Indonesia (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/credit-decisioning/co/Indonesia'
+2026-09-28 20:13:46 | ERROR    | src.scrapers.base:132 - [Kalibrr] Exhausted all 3 retries for https://www.kalibrr.com/job-board/te/credit-decisioning/co/Indonesia
+2026-09-28 20:13:46 | INFO     | src.scrapers.kalibrr:44 - [Kalibrr] Searching for 'Credit Decisioning' in 'Indonesia'
+2026-09-28 20:13:46 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 20:13:47 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Decisioning&country=ID (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Decisioning&country=ID'
+2026-09-28 20:13:47 | ERROR    | src.scrapers.base:132 - [Glints] Exhausted all 3 retries for https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Decisioning&country=ID
+2026-09-28 20:13:47 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 20:13:47 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Credit+Decisioning&countries=Indonesia&limit=15&offset=0'
+2026-09-28 20:13:47 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Credit+Decisioning&country=ID&cityName=Remote&limit=15&page=1'
+2026-09-28 20:13:50 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Credit+Decisioning&countries=Indonesia&limit=15&offset=0'
+2026-09-28 20:13:50 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Credit+Decisioning&country=ID&cityName=Remote&limit=15&page=1'
+2026-09-28 20:13:54 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Credit+Decisioning&countries=Indonesia&limit=15&offset=0'
+2026-09-28 20:13:54 | ERROR    | src.scrapers.base:132 - [Kalibrr] Exhausted all 3 retries for https://www.kalibrr.com/api/job_board/search
+2026-09-28 20:13:54 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 20:13:55 | WARNING  | src.scrapers.base:125 - [Glints] Network error requesting https://glints.com/api/job-posts (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://glints.com/api/job-posts?keyword=Credit+Decisioning&country=ID&cityName=Remote&limit=15&page=1'
+2026-09-28 20:13:55 | ERROR    | src.scrapers.base:132 - [Glints] Exhausted all 3 retries for https://glints.com/api/job-posts
+2026-09-28 20:13:55 | INFO     | src.scrapers.glints:63 - [Glints] Found 0 total unique jobs
+2026-09-28 20:13:55 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/credit-decisioning/co/Indonesia (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/credit-decisioning/co/Indonesia'
+2026-09-28 20:13:58 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/credit-decisioning/co/Indonesia (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/credit-decisioning/co/Indonesia'
+2026-09-28 20:14:02 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/credit-decisioning/co/Indonesia (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/credit-decisioning/co/Indonesia'
+2026-09-28 20:14:02 | ERROR    | src.scrapers.base:132 - [Kalibrr] Exhausted all 3 retries for https://www.kalibrr.com/job-board/te/credit-decisioning/co/Indonesia
+2026-09-28 20:14:02 | INFO     | src.scrapers.kalibrr:44 - [Kalibrr] Searching for 'Credit Decisioning' in 'Remote'
+2026-09-28 20:14:03 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 20:14:03 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Credit+Decisioning&countries=Indonesia&limit=15&offset=0'
+2026-09-28 20:14:06 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Credit+Decisioning&countries=Indonesia&limit=15&offset=0'
+2026-09-28 20:14:10 | ERROR    | telegram.ext.Updater:371 - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 680, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 4767, in get_updates
+    await self._post(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-09-28 20:14:10 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/api/job_board/search (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/api/job_board/search?keywords=Credit+Decisioning&countries=Indonesia&limit=15&offset=0'
+2026-09-28 20:14:10 | ERROR    | src.scrapers.base:132 - [Kalibrr] Exhausted all 3 retries for https://www.kalibrr.com/api/job_board/search
+2026-09-28 20:14:10 | WARNING  | fake_useragent:226 - Error occurred during getting browser(s): random, but was suppressed with fallback.
+2026-09-28 20:14:11 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/credit-decisioning/co/Indonesia (attempt 1/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/credit-decisioning/co/Indonesia'
+2026-09-28 20:14:14 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/credit-decisioning/co/Indonesia (attempt 2/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/credit-decisioning/co/Indonesia'
+2026-09-28 20:14:19 | WARNING  | src.scrapers.base:125 - [Kalibrr] Network error requesting https://www.kalibrr.com/job-board/te/credit-decisioning/co/Indonesia (attempt 3/3): 400, message='Can not decode content-encoding: brotli (br). Please install `Brotli`', url='https://www.kalibrr.com/home/te/credit-decisioning/co/Indonesia'
+2026-09-28 20:14:19 | ERROR    | src.scrapers.base:132 - [Kalibrr] Exhausted all 3 retries for https://www.kalibrr.com/job-board/te/credit-decisioning/co/Indonesia
+2026-09-28 20:14:19 | INFO     | src.scrapers.kalibrr:51 - [Kalibrr] Found 0 total unique jobs
+2026-09-28 20:14:19 | INFO     | src.scrapers.manager:84 - Scraper [JobStreet] returned 0 job postings
+2026-09-28 20:14:19 | INFO     | src.scrapers.manager:84 - Scraper [Glints] returned 0 job postings
+2026-09-28 20:14:19 | INFO     | src.scrapers.manager:84 - Scraper [Kalibrr] returned 0 job postings
+2026-09-28 20:14:19 | INFO     | src.scrapers.manager:129 - Scraper cycle completed. Discovered: 0, Shortlisted: 0
+2026-09-28 20:14:19 | ERROR    | asyncio:1785 - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000020A948C0A90>
+2026-09-28 20:14:19 | ERROR    | asyncio:1785 - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000020A948C1B10>
+2026-09-28 20:14:19 | ERROR    | asyncio:1785 - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000020A948C2E50>
+2026-09-28 20:14:32 | INFO     | src.matcher.profile_loader:40 - Loaded candidate profile for: Aditya Darmawan (Senior Credit Risk & Underwriting Specialist)
+2026-09-28 20:14:41 | INFO     | src.matcher.profile_loader:40 - Loaded candidate profile for: Aditya Darmawan (Senior Credit Risk & Underwriting Specialist)
+2026-09-28 20:14:42 | INFO     | job_agent_main:81 - Starting Job Hunting Automation Daemon & Web Dashboard...
+2026-09-28 20:14:42 | INFO     | dashboard.server:208 - Web Dashboard server active on http://0.0.0.0:8080
+2026-09-28 20:14:43 | INFO     | src.telegram_hitl.bot:80 - Starting Telegram HITL Bot polling...
+2026-09-28 20:14:44 | INFO     | telegram.ext.Application:633 - Application started
+2026-09-28 20:14:45 | INFO     | job_agent_main:34 - Initiating full job scraping and matching cycle...
+2026-09-28 20:14:45 | INFO     | src.scrapers.manager:69 - Starting multi-platform scraper run. Keywords: 8, Locations: 4, Threshold: 75
+2026-09-28 20:14:45 | INFO     | src.scrapers.linkedin:56 - [LinkedIn] Searching for 'Credit Risk Manager' in 'Indonesia'
+2026-09-28 20:14:45 | INFO     | src.scrapers.kalibrr:43 - [Kalibrr] Searching for 'Credit Risk Manager' in 'Indonesia'
+2026-09-28 20:14:45 | INFO     | src.scrapers.glints:62 - [Glints] Searching for 'Credit Risk Manager' in 'Jakarta'
+2026-09-28 20:14:45 | INFO     | src.scrapers.jobstreet:63 - [JobStreet] Searching for 'Credit Risk Manager' in 'Jakarta'
+2026-09-28 20:14:45 | WARNING  | src.scrapers.base:122 - [JobStreet] Rate limited (429) on https://id.jobstreet.com/id/job-search/credit-risk-manager-jobs/in-jakarta/?sortmode=listeddate. Backing off for 1.5s (attempt 1/1)
+2026-09-28 20:14:45 | WARNING  | src.scrapers.base:135 - [Glints] Request to https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Manager&country=ID returned HTTP 403
+2026-09-28 20:14:46 | INFO     | src.scrapers.kalibrr:43 - [Kalibrr] Searching for 'Credit Risk Analyst' in 'Indonesia'
+2026-09-28 20:14:46 | INFO     | src.scrapers.kalibrr:43 - [Kalibrr] Searching for 'Head of Underwriting' in 'Indonesia'
+2026-09-28 20:14:46 | WARNING  | src.scrapers.base:135 - [Glints] Request to https://glints.com/api/job-posts returned HTTP 403
+2026-09-28 20:14:46 | INFO     | src.scrapers.glints:62 - [Glints] Searching for 'Credit Risk Manager' in 'Indonesia'
+2026-09-28 20:14:46 | INFO     | src.scrapers.kalibrr:50 - [Kalibrr] Found 11 total unique jobs
+2026-09-28 20:14:46 | WARNING  | src.scrapers.base:135 - [Glints] Request to https://glints.com/id/opportunities/jobs/explore?keyword=Credit%20Risk%20Manager&country=ID returned HTTP 403
+2026-09-28 20:14:47 | INFO     | src.scrapers.linkedin:56 - [LinkedIn] Searching for 'Credit Risk Analyst' in 'Indonesia'
+2026-09-28 20:14:47 | ERROR    | src.scrapers.base:150 - [JobStreet] Exhausted all 1 retries for https://id.jobstreet.com/id/job-search/credit-risk-manager-jobs/in-jakarta/?sortmode=listeddate
+2026-09-28 20:14:47 | WARNING  | src.scrapers.base:135 - [Glints] Request to https://glints.com/api/job-posts returned HTTP 403
+2026-09-28 20:14:47 | WARNING  | src.scrapers.glints:58 - [Glints] Cloudflare anti-bot active; skipping remaining queries.
+2026-09-28 20:14:47 | INFO     | src.scrapers.glints:74 - [Glints] Found 0 total unique jobs
+2026-09-28 20:14:47 | WARNING  | src.scrapers.base:135 - [JobStreet] Request to https://id.jobstreet.com/api/chalice-search/v4/search returned HTTP 404
+2026-09-28 20:14:47 | INFO     | src.scrapers.jobstreet:63 - [JobStreet] Searching for 'Credit Risk Manager' in 'Indonesia'
+2026-09-28 20:14:47 | WARNING  | src.scrapers.base:122 - [JobStreet] Rate limited (429) on https://id.jobstreet.com/id/job-search/credit-risk-manager-jobs/in-indonesia/?sortmode=listeddate. Backing off for 1.5s (attempt 1/1)
+2026-09-28 20:14:48 | INFO     | src.scrapers.linkedin:56 - [LinkedIn] Searching for 'Head of Underwriting' in 'Indonesia'
+2026-09-28 20:14:49 | ERROR    | src.scrapers.base:150 - [JobStreet] Exhausted all 1 retries for https://id.jobstreet.com/id/job-search/credit-risk-manager-jobs/in-indonesia/?sortmode=listeddate
+2026-09-28 20:14:49 | WARNING  | src.scrapers.base:135 - [JobStreet] Request to https://id.jobstreet.com/api/chalice-search/v4/search returned HTTP 404
+2026-09-28 20:14:49 | WARNING  | src.scrapers.jobstreet:59 - [JobStreet] Cloudflare anti-bot active; skipping remaining queries.
+2026-09-28 20:14:49 | INFO     | src.scrapers.jobstreet:75 - [JobStreet] Found 0 total unique jobs
+2026-09-28 20:14:50 | INFO     | src.scrapers.linkedin:64 - [LinkedIn] Found 29 total unique jobs
+2026-09-28 20:14:50 | INFO     | src.scrapers.manager:87 - Scraper [LinkedIn] returned 29 job postings
+2026-09-28 20:14:50 | INFO     | src.scrapers.manager:87 - Scraper [Kalibrr] returned 11 job postings
+2026-09-28 20:14:50 | INFO     | src.scrapers.manager:87 - Scraper [Glints] returned 0 job postings
+2026-09-28 20:14:50 | INFO     | src.scrapers.manager:87 - Scraper [JobStreet] returned 0 job postings
+2026-09-28 20:14:50 | ERROR    | telegram.ext.Updater:371 - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 680, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 4767, in get_updates
+    await self._post(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-09-28 20:14:54 | ERROR    | telegram.ext.Updater:371 - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 680, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 4767, in get_updates
+    await self._post(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-09-28 20:14:56 | WARNING  | src.scrapers.base:122 - [LinkedIn] Rate limited (429) on https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4464849677. Backing off for 1.5s (attempt 1/3)
+2026-09-28 20:15:00 | ERROR    | telegram.ext.Updater:371 - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 680, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 4767, in get_updates
+    await self._post(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-09-28 20:15:06 | WARNING  | src.scrapers.base:122 - [LinkedIn] Rate limited (429) on https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4428454491. Backing off for 1.5s (attempt 1/3)
+2026-09-28 20:15:07 | ERROR    | telegram.ext.Updater:371 - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 680, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 4767, in get_updates
+    await self._post(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-09-28 20:15:08 | WARNING  | src.scrapers.base:122 - [LinkedIn] Rate limited (429) on https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4428454491. Backing off for 3.0s (attempt 2/3)
+2026-09-28 20:15:16 | ERROR    | telegram.ext.Updater:371 - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 680, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 4767, in get_updates
+    await self._post(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-09-28 20:15:20 | INFO     | src.scrapers.manager:145 - Scraper cycle completed. Total newly scraped: 40, Newly Shortlisted: 0
+2026-09-28 20:15:20 | INFO     | job_agent_main:36 - Scraper cycle identified 0 shortlisted jobs.
+2026-09-28 20:15:20 | INFO     | job_agent_main:96 - Sleeping for 4 hours until next scraping cycle...
+2026-09-28 20:15:28 | ERROR    | telegram.ext.Updater:371 - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 680, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 4767, in get_updates
+    await self._post(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-09-28 20:15:45 | ERROR    | telegram.ext.Updater:371 - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 680, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 4767, in get_updates
+    await self._post(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-09-28 20:16:01 | ERROR    | telegram.ext.Updater:371 - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 680, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 4767, in get_updates
+    await self._post(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-09-28 20:16:24 | ERROR    | telegram.ext.Updater:371 - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 680, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 4767, in get_updates
+    await self._post(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-09-28 20:16:55 | ERROR    | telegram.ext.Updater:371 - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 680, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 4767, in get_updates
+    await self._post(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-09-28 20:17:30 | ERROR    | telegram.ext.Updater:371 - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 680, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 4767, in get_updates
+    await self._post(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-09-28 20:18:05 | ERROR    | telegram.ext.Updater:371 - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 680, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 4767, in get_updates
+    await self._post(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-09-28 20:18:45 | ERROR    | telegram.ext.Updater:371 - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 680, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 4767, in get_updates
+    await self._post(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-09-28 20:19:20 | ERROR    | telegram.ext.Updater:371 - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 680, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 4767, in get_updates
+    await self._post(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-09-28 20:19:55 | ERROR    | telegram.ext.Updater:371 - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 680, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 4767, in get_updates
+    await self._post(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-09-28 20:20:30 | ERROR    | telegram.ext.Updater:371 - Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 680, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 4767, in get_updates
+    await self._post(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
