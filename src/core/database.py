@@ -334,6 +334,15 @@ class Database:
                 rows = await cursor.fetchall()
                 return [self._row_to_job(r) for r in rows]
 
+    async def get_recent_jobs(self, limit: int = 50, offset: int = 0) -> List[Job]:
+        """Fetch most recent jobs across all statuses."""
+        query = "SELECT * FROM jobs ORDER BY updated_at DESC, match_score DESC LIMIT ? OFFSET ?"
+        async with aiosqlite.connect(str(self.db_path)) as db:
+            db.row_factory = aiosqlite.Row
+            async with db.execute(query, (limit, offset)) as cursor:
+                rows = await cursor.fetchall()
+                return [self._row_to_job(r) for r in rows]
+
     async def get_pending_approvals(self, limit: int = 20) -> List[Job]:
         """Fetch shortlisted jobs awaiting user HITL approval."""
         return await self.get_jobs_by_status(ApplicationStatus.SHORTLISTED, limit=limit)
