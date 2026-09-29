@@ -579,9 +579,10 @@ DASHBOARD_HTML = """<!DOCTYPE html>
       }
     }
 
-    async function fetchJobs() {
+    async function fetchJobs(status = currentFilter) {
       try {
-        const res = await fetch('/api/jobs');
+        const url = status && status !== 'all' ? `/api/jobs?status=${encodeURIComponent(status)}&limit=500` : '/api/jobs?limit=500';
+        const res = await fetch(url);
         allJobs = await res.json();
         renderJobs();
       } catch (e) {
@@ -601,7 +602,12 @@ DASHBOARD_HTML = """<!DOCTYPE html>
       });
 
       if (filtered.length === 0) {
-        container.innerHTML = '<div class="empty-state">Tidak ada lowongan dalam kategori ini.</div>';
+        container.innerHTML = `
+          <div class="empty-state">
+            <p style="font-size: 15px; margin-bottom: 8px;">Tidak ada lowongan dalam kategori <strong>${currentFilter}</strong>.</p>
+            <button class="btn btn-outline" onclick="filterStatus('all', document.querySelector('.filter-pills .pill:first-child'))">Tampilkan Semua Lowongan</button>
+          </div>
+        `;
         return;
       }
 
@@ -658,11 +664,11 @@ DASHBOARD_HTML = """<!DOCTYPE html>
       }).join('');
     }
 
-    function filterStatus(status, el) {
+    async function filterStatus(status, el) {
       currentFilter = status;
       document.querySelectorAll('.filter-pills .pill').forEach(p => p.classList.remove('active'));
       if (el) el.classList.add('active');
-      renderJobs();
+      await fetchJobs(status);
     }
 
     function switchTab(tab) {
