@@ -329,7 +329,7 @@ class Database:
         self,
         status: ApplicationStatus,
         platform: Optional[str] = None,
-        limit: int = 50,
+        limit: int = 500,
         offset: int = 0,
     ) -> List[Job]:
         """Fetch list of jobs matching given status."""
@@ -349,9 +349,22 @@ class Database:
                 rows = await cursor.fetchall()
                 return [self._row_to_job(r) for r in rows]
 
-    async def get_recent_jobs(self, limit: int = 50, offset: int = 0) -> List[Job]:
-        """Fetch most recent jobs across all statuses."""
-        query = "SELECT * FROM jobs ORDER BY updated_at DESC, match_score DESC LIMIT ? OFFSET ?"
+    async def get_recent_jobs(self, limit: int = 500, offset: int = 0) -> List[Job]:
+        """Fetch most recent jobs across all statuses, prioritizing shortlisted / approved."""
+        query = """
+        SELECT * FROM jobs 
+        ORDER BY 
+            CASE status
+                WHEN 'shortlisted' THEN 1
+                WHEN 'approved' THEN 2
+                WHEN 'submitted' THEN 3
+                WHEN 'discovered' THEN 4
+                ELSE 5
+            END,
+            match_score DESC, 
+            updated_at DESC 
+        LIMIT ? OFFSET ?
+        """
         async with aiosqlite.connect(str(self.db_path)) as db:
             db.row_factory = aiosqlite.Row
             async with db.execute(query, (limit, offset)) as cursor:
