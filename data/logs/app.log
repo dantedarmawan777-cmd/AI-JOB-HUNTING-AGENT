@@ -5064,3 +5064,4 @@ connector: <aiohttp.connector.TCPConnector object at 0x000001D6B8CD8C10>
 2026-09-28 21:00:56 | INFO     | copywriter.form_answers:483 - Answered screening question [dd062a1adc]: 'Years of experience in credit risk?' -> '12'
 2026-09-28 21:00:56 | INFO     | matcher.blacklist:343 - Blacklisted job [Fresh Graduate Admin Kredit @ PT Pinjol Ilegal]: Employer matched blacklisted predatory lending entity: 'PT Pinjol Ilegal'
 2026-09-28 21:00:56 | INFO     | matcher.engine:372 - Job SHORTLISTED [Score: 100]: Head of Credit Policy & Underwriting @ SEA Digital Bank
+2026-09-29 09:40:12 | INFO     | src.matcher.profile_loader:40 - Loaded candidate profile for: Aditya Darmawan (Senior Credit Risk & Underwriting Specialist)
