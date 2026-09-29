@@ -38,7 +38,7 @@ async def handle_get_stats(request: web.Request) -> web.Response:
 async def handle_get_jobs(request: web.Request) -> web.Response:
     """Return list of jobs with optional status filter."""
     status_filter = request.query.get("status")
-    limit = int(request.query.get("limit", 100))
+    limit = int(request.query.get("limit", 500))
 
     if status_filter and status_filter != "all":
         try:
